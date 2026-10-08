@@ -1155,229 +1155,725 @@ enum HairStyles implements PropertyItem {
 </g>
 """),
   Mohawk("""
-<g id="Top" stroke-width="1" fill-rule="evenodd">
-<defs>
-<path d="M114,80 C114,52 121,24 132,6 C143,24 150,52 150,80 C140,74 124,74 114,80 Z" id="am-path-mohawk"></path>
+<g id="Top" stroke-width="1" fill-rule="evenodd"><g id="HairStyles/Mohawk"><defs>
+<path d="M74,112 C73,63 98,33 132,33 C166,33 191,63 190,112 L185,112 C185,80 168,62 132,62 C96,62 79,80 79,112 Z" id="am-path-mohawk-0" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-mohawk-0" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
 </defs>
-<mask id="am-mask-mohawk" fill="white">
-<use xlink:href="#am-path-mohawk"></use>
+<mask id="am-mask-mohawk-0" fill="white">
+<use xlink:href="#am-path-mohawk-0"></use>
 </mask>
-<use id="Mohawk" fill="#1F3140" fill-rule="evenodd" xlink:href="#am-path-mohawk"></use>
-<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-mohawk)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-mohawk-0)" fill="$TO_REPLACE_WITH_HAIRS_COLOR" fill-opacity="0.45">
 <g transform="translate(0.000000, 0.000000)" id="Color">
 <rect x="0" y="0" width="264" height="280"></rect>
 </g>
 </g>
-<g mask="url(#am-mask-mohawk)"><ellipse cx="102" cy="48" rx="44" ry="28" transform="rotate(-22 102 48)" fill="#FFFFFF" fill-opacity="0.16"></ellipse><rect x="0" y="106" width="264" height="120" fill="#000000" fill-opacity="0.14"></rect><g fill="none" stroke="#000000" stroke-opacity="0.13" stroke-width="3" stroke-linecap="round"><path d="M92,22 C84,52 82,84 88,116"></path><path d="M118,14 C113,48 111,82 114,118"></path><path d="M146,14 C151,48 153,82 150,118"></path><path d="M172,22 C180,52 182,84 176,116"></path></g></g></g>
+<g mask="url(#am-mask-mohawk-0)"></g>
+<defs>
+<path d="M114,66 C112,52 110,40 106,30 L98,14 L114,22 L118,4 L128,18 L134,2 L140,18 L150,4 L152,22 L168,14 L160,30 C156,40 152,52 150,66 C142,62 122,62 114,66 Z" id="am-path-mohawk-1" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-mohawk-1" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
+</defs>
+<mask id="am-mask-mohawk-1" fill="white">
+<use xlink:href="#am-path-mohawk-1"></use>
+</mask>
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-mohawk-1)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g transform="translate(0.000000, 0.000000)" id="Color">
+<rect x="0" y="0" width="264" height="280"></rect>
+</g>
+</g>
+<use xlink:href="#am-path-mohawk-1" fill="url(#am-shade-mohawk-1)"></use>
+<g mask="url(#am-mask-mohawk-1)"><ellipse cx="122" cy="30" rx="10" ry="18" transform="rotate(-24 122 30)" fill="#FFFFFF" fill-opacity="0.18"></ellipse><g fill="none" stroke="#000000" stroke-opacity="0.16" stroke-width="2.5" stroke-linecap="round"><path d="M124,62 C122,44 120,30 118,14"></path><path d="M140,62 C142,44 144,30 148,14"></path><path d="M132,60 L134,10"></path></g></g>
+</g>
+</g>
 """),
   Ponytail("""
-<g id="Top" stroke-width="1" fill-rule="evenodd">
-<defs>
-<path d="M74,102 C74,54 100,30 132,30 C164,30 190,54 190,102 C190,80 176,62 132,62 C88,62 74,80 74,102 Z M180,66 C205,72 218,96 214,124 C210,150 194,166 178,170 C190,150 198,124 194,102 C191,88 186,74 180,70 Z" id="am-path-ponytail"></path>
+<g id="Top" stroke-width="1" fill-rule="evenodd"><g id="HairStyles/Ponytail"><defs>
+<path d="M184,48 C204,46 220,62 218,88 C216,112 206,140 196,170 C190,150 194,124 194,104 C194,84 190,66 178,58 Z" id="am-path-ponytail-0" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-ponytail-0" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
 </defs>
-<mask id="am-mask-ponytail" fill="white">
-<use xlink:href="#am-path-ponytail"></use>
+<mask id="am-mask-ponytail-0" fill="white">
+<use xlink:href="#am-path-ponytail-0"></use>
 </mask>
-<use id="Ponytail" fill="#1F3140" fill-rule="evenodd" xlink:href="#am-path-ponytail"></use>
-<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-ponytail)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-ponytail-0)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
 <g transform="translate(0.000000, 0.000000)" id="Color">
 <rect x="0" y="0" width="264" height="280"></rect>
 </g>
 </g>
-<g mask="url(#am-mask-ponytail)"><ellipse cx="102" cy="48" rx="44" ry="28" transform="rotate(-22 102 48)" fill="#FFFFFF" fill-opacity="0.16"></ellipse><rect x="0" y="106" width="264" height="120" fill="#000000" fill-opacity="0.14"></rect><g fill="none" stroke="#000000" stroke-opacity="0.13" stroke-width="3" stroke-linecap="round"><path d="M92,22 C84,52 82,84 88,116"></path><path d="M118,14 C113,48 111,82 114,118"></path><path d="M146,14 C151,48 153,82 150,118"></path><path d="M172,22 C180,52 182,84 176,116"></path></g></g></g>
+<use xlink:href="#am-path-ponytail-0" fill="url(#am-shade-ponytail-0)"></use>
+<g mask="url(#am-mask-ponytail-0)"><ellipse cx="206" cy="72" rx="8" ry="16" transform="rotate(-24 206 72)" fill="#FFFFFF" fill-opacity="0.18"></ellipse><g fill="none" stroke="#000000" stroke-opacity="0.16" stroke-width="2.5" stroke-linecap="round"><path d="M200,62 C210,86 208,118 198,152"></path><path d="M190,64 C200,90 200,120 196,150"></path></g><rect x="176" y="52" width="30" height="7" rx="3.5" transform="rotate(20 191 55.5)" fill="#000000" fill-opacity="0.35"></rect></g>
+<defs>
+<path d="M73,102 C72,60 98,30 132,30 C166,30 192,60 191,102 L185,102 C185,80 168,62 132,62 C96,62 79,80 79,102 Z" id="am-path-ponytail-1" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-ponytail-1" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
+</defs>
+<mask id="am-mask-ponytail-1" fill="white">
+<use xlink:href="#am-path-ponytail-1"></use>
+</mask>
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-ponytail-1)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g transform="translate(0.000000, 0.000000)" id="Color">
+<rect x="0" y="0" width="264" height="280"></rect>
+</g>
+</g>
+<use xlink:href="#am-path-ponytail-1" fill="url(#am-shade-ponytail-1)"></use>
+<g mask="url(#am-mask-ponytail-1)"><ellipse cx="104" cy="50" rx="40" ry="22" transform="rotate(-24 104 50)" fill="#FFFFFF" fill-opacity="0.18"></ellipse><g fill="none" stroke="#000000" stroke-opacity="0.16" stroke-width="2.5" stroke-linecap="round"><path d="M90,90 C96,62 120,44 176,46"></path><path d="M104,76 C116,58 140,46 178,48"></path><path d="M150,66 C164,58 174,52 180,50"></path></g></g>
+</g>
+</g>
 """),
   TopKnot("""
-<g id="Top" stroke-width="1" fill-rule="evenodd">
-<defs>
-<path d="M74,106 C74,52 100,24 132,24 C164,24 190,52 190,106 C190,80 176,66 132,66 C88,66 74,80 74,106 Z M132,-4 C144,-4 154,6 154,18 C154,30 144,40 132,40 C120,40 110,30 110,18 C110,6 120,-4 132,-4 Z" id="am-path-topknot"></path>
+<g id="Top" stroke-width="1" fill-rule="evenodd"><g id="HairStyles/TopKnot"><defs>
+<path d="M115,22 A17,14 0 1,1 149,22 A17,14 0 1,1 115,22 Z" id="am-path-topknot-0" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-topknot-0" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
 </defs>
-<mask id="am-mask-topknot" fill="white">
-<use xlink:href="#am-path-topknot"></use>
+<mask id="am-mask-topknot-0" fill="white">
+<use xlink:href="#am-path-topknot-0"></use>
 </mask>
-<use id="Top-Knot" fill="#1F3140" fill-rule="evenodd" xlink:href="#am-path-topknot"></use>
-<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-topknot)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-topknot-0)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
 <g transform="translate(0.000000, 0.000000)" id="Color">
 <rect x="0" y="0" width="264" height="280"></rect>
 </g>
 </g>
-<g mask="url(#am-mask-topknot)"><ellipse cx="102" cy="48" rx="44" ry="28" transform="rotate(-22 102 48)" fill="#FFFFFF" fill-opacity="0.16"></ellipse><rect x="0" y="106" width="264" height="120" fill="#000000" fill-opacity="0.14"></rect><g fill="none" stroke="#000000" stroke-opacity="0.13" stroke-width="3" stroke-linecap="round"><path d="M92,22 C84,52 82,84 88,116"></path><path d="M118,14 C113,48 111,82 114,118"></path><path d="M146,14 C151,48 153,82 150,118"></path><path d="M172,22 C180,52 182,84 176,116"></path></g></g></g>
+<use xlink:href="#am-path-topknot-0" fill="url(#am-shade-topknot-0)"></use>
+<g mask="url(#am-mask-topknot-0)"><ellipse cx="126" cy="16" rx="7" ry="5" transform="rotate(-24 126 16)" fill="#FFFFFF" fill-opacity="0.18"></ellipse><g fill="none" stroke="#000000" stroke-opacity="0.16" stroke-width="2.5" stroke-linecap="round"><path d="M120,18 C126,10 138,10 144,18"></path><path d="M118,26 C126,32 138,32 146,26"></path></g></g>
+<defs>
+<path d="M73,102 C72,60 98,30 132,30 C166,30 192,60 191,102 L185,102 C185,80 168,62 132,62 C96,62 79,80 79,102 Z" id="am-path-topknot-1" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-topknot-1" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
+</defs>
+<mask id="am-mask-topknot-1" fill="white">
+<use xlink:href="#am-path-topknot-1"></use>
+</mask>
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-topknot-1)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g transform="translate(0.000000, 0.000000)" id="Color">
+<rect x="0" y="0" width="264" height="280"></rect>
+</g>
+</g>
+<use xlink:href="#am-path-topknot-1" fill="url(#am-shade-topknot-1)"></use>
+<g mask="url(#am-mask-topknot-1)"><ellipse cx="104" cy="50" rx="40" ry="22" transform="rotate(-24 104 50)" fill="#FFFFFF" fill-opacity="0.18"></ellipse><g fill="none" stroke="#000000" stroke-opacity="0.16" stroke-width="2.5" stroke-linecap="round"><path d="M92,90 C96,62 112,46 128,38"></path><path d="M172,90 C168,62 152,46 136,38"></path><path d="M112,70 C118,54 126,44 132,40"></path><path d="M152,70 C146,54 138,44 132,40"></path></g></g>
+<rect x="120" y="32" width="24" height="6" rx="3" fill="#000000" fill-opacity="0.3"></rect></g>
+</g>
 """),
   Curtains("""
-<g id="Top" stroke-width="1" fill-rule="evenodd">
-<defs>
-<path d="M74,104 C74,54 100,30 132,30 C164,30 190,54 190,104 C190,84 180,70 164,64 C150,60 140,70 132,86 C124,70 114,60 100,64 C84,70 74,84 74,104 Z" id="am-path-curtains"></path>
+<g id="Top" stroke-width="1" fill-rule="evenodd"><g id="HairStyles/Curtains"><defs>
+<path d="M70,116 C66,58 96,26 132,26 C168,26 198,58 194,116 C190,120 186,120 184,116 C184,90 168,70 140,66 L132,58 L124,66 C96,70 80,90 80,116 C78,120 74,120 70,116 Z" id="am-path-curtains-0" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-curtains-0" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
 </defs>
-<mask id="am-mask-curtains" fill="white">
-<use xlink:href="#am-path-curtains"></use>
+<mask id="am-mask-curtains-0" fill="white">
+<use xlink:href="#am-path-curtains-0"></use>
 </mask>
-<use id="Curtains" fill="#1F3140" fill-rule="evenodd" xlink:href="#am-path-curtains"></use>
-<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-curtains)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-curtains-0)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
 <g transform="translate(0.000000, 0.000000)" id="Color">
 <rect x="0" y="0" width="264" height="280"></rect>
 </g>
 </g>
-<g mask="url(#am-mask-curtains)"><ellipse cx="102" cy="48" rx="44" ry="28" transform="rotate(-22 102 48)" fill="#FFFFFF" fill-opacity="0.16"></ellipse><rect x="0" y="106" width="264" height="120" fill="#000000" fill-opacity="0.14"></rect><g fill="none" stroke="#000000" stroke-opacity="0.13" stroke-width="3" stroke-linecap="round"><path d="M92,22 C84,52 82,84 88,116"></path><path d="M118,14 C113,48 111,82 114,118"></path><path d="M146,14 C151,48 153,82 150,118"></path><path d="M172,22 C180,52 182,84 176,116"></path></g></g></g>
+<use xlink:href="#am-path-curtains-0" fill="url(#am-shade-curtains-0)"></use>
+<g mask="url(#am-mask-curtains-0)"><ellipse cx="104" cy="50" rx="40" ry="22" transform="rotate(-24 104 50)" fill="#FFFFFF" fill-opacity="0.18"></ellipse><g fill="none" stroke="#000000" stroke-opacity="0.16" stroke-width="2.5" stroke-linecap="round"><path d="M130,34 C112,46 94,66 86,100"></path><path d="M134,34 C152,46 170,66 178,100"></path><path d="M124,40 C104,58 98,76 96,92"></path><path d="M140,40 C160,58 166,76 168,92"></path><path d="M132,30 L132,56"></path></g></g>
+</g>
+</g>
 """),
   Pigtails("""
-<g id="Top" stroke-width="1" fill-rule="evenodd">
-<defs>
-<path d="M74,102 C74,54 100,30 132,30 C164,30 190,54 190,102 C190,80 176,62 132,62 C88,62 74,80 74,102 Z M70,74 C50,80 40,102 44,126 C48,148 62,160 76,162 C66,144 60,122 64,102 C66,90 70,80 74,76 Z M194,74 C214,80 224,102 220,126 C216,148 202,160 188,162 C198,144 204,122 200,102 C198,90 194,80 190,76 Z" id="am-path-pigtails"></path>
+<g id="Top" stroke-width="1" fill-rule="evenodd"><g id="HairStyles/Pigtails"><defs>
+<path d="M82,74 C62,72 46,88 44,112 C42,134 50,154 62,168 C62,150 64,132 70,116 C74,104 80,94 88,86 Z" id="am-path-pigtails-0" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-pigtails-0" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
 </defs>
-<mask id="am-mask-pigtails" fill="white">
-<use xlink:href="#am-path-pigtails"></use>
+<mask id="am-mask-pigtails-0" fill="white">
+<use xlink:href="#am-path-pigtails-0"></use>
 </mask>
-<use id="Pigtails" fill="#1F3140" fill-rule="evenodd" xlink:href="#am-path-pigtails"></use>
-<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-pigtails)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-pigtails-0)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
 <g transform="translate(0.000000, 0.000000)" id="Color">
 <rect x="0" y="0" width="264" height="280"></rect>
 </g>
 </g>
-<g mask="url(#am-mask-pigtails)"><ellipse cx="102" cy="48" rx="44" ry="28" transform="rotate(-22 102 48)" fill="#FFFFFF" fill-opacity="0.16"></ellipse><rect x="0" y="106" width="264" height="120" fill="#000000" fill-opacity="0.14"></rect><g fill="none" stroke="#000000" stroke-opacity="0.13" stroke-width="3" stroke-linecap="round"><path d="M92,22 C84,52 82,84 88,116"></path><path d="M118,14 C113,48 111,82 114,118"></path><path d="M146,14 C151,48 153,82 150,118"></path><path d="M172,22 C180,52 182,84 176,116"></path></g></g></g>
+<use xlink:href="#am-path-pigtails-0" fill="url(#am-shade-pigtails-0)"></use>
+<g mask="url(#am-mask-pigtails-0)"><ellipse cx="58" cy="100" rx="8" ry="16" transform="rotate(-24 58 100)" fill="#FFFFFF" fill-opacity="0.18"></ellipse><g fill="none" stroke="#000000" stroke-opacity="0.16" stroke-width="2.5" stroke-linecap="round"><path d="M66,84 C54,104 54,130 60,152"></path></g></g>
+<defs>
+<path d="M182,74 C202,72 218,88 220,112 C222,134 214,154 202,168 C202,150 200,132 194,116 C190,104 184,94 176,86 Z" id="am-path-pigtails-1" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-pigtails-1" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
+</defs>
+<mask id="am-mask-pigtails-1" fill="white">
+<use xlink:href="#am-path-pigtails-1"></use>
+</mask>
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-pigtails-1)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g transform="translate(0.000000, 0.000000)" id="Color">
+<rect x="0" y="0" width="264" height="280"></rect>
+</g>
+</g>
+<use xlink:href="#am-path-pigtails-1" fill="url(#am-shade-pigtails-1)"></use>
+<g mask="url(#am-mask-pigtails-1)"><ellipse cx="206" cy="100" rx="6" ry="14" transform="rotate(-24 206 100)" fill="#FFFFFF" fill-opacity="0.18"></ellipse><g fill="none" stroke="#000000" stroke-opacity="0.16" stroke-width="2.5" stroke-linecap="round"><path d="M198,84 C210,104 210,130 204,152"></path></g></g>
+<defs>
+<path d="M73,104 C72,59 98,29 132,29 C166,29 192,59 191,104 L185,104 C185,80 168,62 132,62 C96,62 79,80 79,104 Z" id="am-path-pigtails-2" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-pigtails-2" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
+</defs>
+<mask id="am-mask-pigtails-2" fill="white">
+<use xlink:href="#am-path-pigtails-2"></use>
+</mask>
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-pigtails-2)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g transform="translate(0.000000, 0.000000)" id="Color">
+<rect x="0" y="0" width="264" height="280"></rect>
+</g>
+</g>
+<use xlink:href="#am-path-pigtails-2" fill="url(#am-shade-pigtails-2)"></use>
+<g mask="url(#am-mask-pigtails-2)"><ellipse cx="104" cy="50" rx="40" ry="22" transform="rotate(-24 104 50)" fill="#FFFFFF" fill-opacity="0.18"></ellipse><g fill="none" stroke="#000000" stroke-opacity="0.16" stroke-width="2.5" stroke-linecap="round"><path d="M132,32 L132,60"></path><path d="M126,36 C108,44 94,60 88,84"></path><path d="M138,36 C156,44 170,60 176,84"></path></g></g>
+<g fill="#000000" fill-opacity="0.32"><rect x="70" y="80" width="18" height="7" rx="3.5" transform="rotate(-40 79 83.5)"></rect><rect x="176" y="80" width="18" height="7" rx="3.5" transform="rotate(40 185 83.5)"></rect></g></g>
+</g>
 """),
   Undercut("""
-<g id="Top" stroke-width="1" fill-rule="evenodd">
-<defs>
-<path d="M76,84 C76,50 101,28 132,28 C163,28 188,50 188,84 C186,66 172,54 132,54 C92,54 78,66 76,84 Z" id="am-path-undercut"></path>
+<g id="Top" stroke-width="1" fill-rule="evenodd"><g id="HairStyles/Undercut"><defs>
+<path d="M74,112 C73,63 98,33 132,33 C166,33 191,63 190,112 L185,112 C185,80 168,62 132,62 C96,62 79,80 79,112 Z" id="am-path-undercut-0" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-undercut-0" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
 </defs>
-<mask id="am-mask-undercut" fill="white">
-<use xlink:href="#am-path-undercut"></use>
+<mask id="am-mask-undercut-0" fill="white">
+<use xlink:href="#am-path-undercut-0"></use>
 </mask>
-<use id="Undercut" fill="#1F3140" fill-rule="evenodd" xlink:href="#am-path-undercut"></use>
-<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-undercut)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-undercut-0)" fill="$TO_REPLACE_WITH_HAIRS_COLOR" fill-opacity="0.45">
 <g transform="translate(0.000000, 0.000000)" id="Color">
 <rect x="0" y="0" width="264" height="280"></rect>
 </g>
 </g>
-<g mask="url(#am-mask-undercut)"><ellipse cx="102" cy="48" rx="44" ry="28" transform="rotate(-22 102 48)" fill="#FFFFFF" fill-opacity="0.16"></ellipse><rect x="0" y="106" width="264" height="120" fill="#000000" fill-opacity="0.14"></rect><g fill="none" stroke="#000000" stroke-opacity="0.13" stroke-width="3" stroke-linecap="round"><path d="M92,22 C84,52 82,84 88,116"></path><path d="M118,14 C113,48 111,82 114,118"></path><path d="M146,14 C151,48 153,82 150,118"></path><path d="M172,22 C180,52 182,84 176,116"></path></g></g></g>
+<g mask="url(#am-mask-undercut-0)"></g>
+<defs>
+<path d="M86,78 C80,48 104,22 140,22 C172,22 192,40 190,64 C189,74 184,80 176,82 C170,72 154,66 134,68 C116,70 100,74 86,78 Z" id="am-path-undercut-1" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-undercut-1" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
+</defs>
+<mask id="am-mask-undercut-1" fill="white">
+<use xlink:href="#am-path-undercut-1"></use>
+</mask>
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-undercut-1)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g transform="translate(0.000000, 0.000000)" id="Color">
+<rect x="0" y="0" width="264" height="280"></rect>
+</g>
+</g>
+<use xlink:href="#am-path-undercut-1" fill="url(#am-shade-undercut-1)"></use>
+<g mask="url(#am-mask-undercut-1)"><ellipse cx="116" cy="36" rx="26" ry="12" transform="rotate(-24 116 36)" fill="#FFFFFF" fill-opacity="0.18"></ellipse><g fill="none" stroke="#000000" stroke-opacity="0.16" stroke-width="2.5" stroke-linecap="round"><path d="M96,70 C108,44 136,32 172,36"></path><path d="M112,66 C124,46 148,40 180,48"></path><path d="M128,64 C144,54 164,54 184,62"></path></g></g>
+</g>
+</g>
 """),
   SpikyShort("""
-<g id="Top" stroke-width="1" fill-rule="evenodd">
-<defs>
-<path d="M74,96 C74,78 80,62 90,50 L96,66 L106,40 L114,62 L124,34 L134,60 L144,34 L152,62 L160,40 L170,66 L176,50 C186,62 190,78 190,96 C186,74 170,60 132,60 C94,60 78,74 74,96 Z" id="am-path-spikyshort"></path>
+<g id="Top" stroke-width="1" fill-rule="evenodd"><g id="HairStyles/SpikyShort"><defs>
+<path d="M73,102 C72,64 98,34 132,34 C166,34 192,64 191,102 L185,102 C185,82 168,64 132,64 C96,64 79,82 79,102 Z M84,72 L80,40 L98,50 L100,24 L114,40 L122,16 L132,36 L142,16 L150,40 L164,24 L166,50 L184,40 L180,72 C164,60 100,60 84,72 Z" id="am-path-spikyshort-0" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-spikyshort-0" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
 </defs>
-<mask id="am-mask-spikyshort" fill="white">
-<use xlink:href="#am-path-spikyshort"></use>
+<mask id="am-mask-spikyshort-0" fill="white">
+<use xlink:href="#am-path-spikyshort-0"></use>
 </mask>
-<use id="SpikyShort" fill="#1F3140" fill-rule="evenodd" xlink:href="#am-path-spikyshort"></use>
-<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-spikyshort)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-spikyshort-0)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
 <g transform="translate(0.000000, 0.000000)" id="Color">
 <rect x="0" y="0" width="264" height="280"></rect>
 </g>
 </g>
-<g mask="url(#am-mask-spikyshort)"><ellipse cx="102" cy="48" rx="44" ry="28" transform="rotate(-22 102 48)" fill="#FFFFFF" fill-opacity="0.16"></ellipse><rect x="0" y="106" width="264" height="120" fill="#000000" fill-opacity="0.14"></rect><g fill="none" stroke="#000000" stroke-opacity="0.13" stroke-width="3" stroke-linecap="round"><path d="M92,22 C84,52 82,84 88,116"></path><path d="M118,14 C113,48 111,82 114,118"></path><path d="M146,14 C151,48 153,82 150,118"></path><path d="M172,22 C180,52 182,84 176,116"></path></g></g></g>
+<use xlink:href="#am-path-spikyshort-0" fill="url(#am-shade-spikyshort-0)"></use>
+<g mask="url(#am-mask-spikyshort-0)"><ellipse cx="108" cy="44" rx="22" ry="12" transform="rotate(-24 108 44)" fill="#FFFFFF" fill-opacity="0.18"></ellipse><g fill="none" stroke="#000000" stroke-opacity="0.16" stroke-width="2.5" stroke-linecap="round"><path d="M100,58 L100,30"></path><path d="M122,52 L122,22"></path><path d="M142,52 L142,22"></path><path d="M164,58 L164,30"></path></g></g>
+</g>
+</g>
 """),
   Braids("""
-<g id="Top" stroke-width="1" fill-rule="evenodd">
-<defs>
-<path d="M74,102 C74,54 100,30 132,30 C164,30 190,54 190,102 C190,80 176,62 132,62 C88,62 74,80 74,102 Z M78,86 C66,102 62,130 68,158 C74,152 80,148 86,148 C80,128 80,104 86,90 Z M186,86 C198,102 202,130 196,158 C190,152 184,148 178,148 C184,128 184,104 178,90 Z" id="am-path-braids"></path>
+<g id="Top" stroke-width="1" fill-rule="evenodd"><g id="HairStyles/Braids"><defs>
+<path d="M63.5,114 A9.5,9 0 1,1 82.5,114 A9.5,9 0 1,1 63.5,114 Z M63.1,129 A9.1,9 0 1,1 81.3,129 A9.1,9 0 1,1 63.1,129 Z M62.7,144 A8.7,9 0 1,1 80.1,144 A8.7,9 0 1,1 62.7,144 Z M62.3,159 A8.3,9 0 1,1 78.9,159 A8.3,9 0 1,1 62.3,159 Z M61.9,174 A7.9,9 0 1,1 77.7,174 A7.9,9 0 1,1 61.9,174 Z M61.5,189 A7.5,9 0 1,1 76.5,189 A7.5,9 0 1,1 61.5,189 Z" id="am-path-braids-0" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-braids-0" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
 </defs>
-<mask id="am-mask-braids" fill="white">
-<use xlink:href="#am-path-braids"></use>
+<mask id="am-mask-braids-0" fill="white">
+<use xlink:href="#am-path-braids-0"></use>
 </mask>
-<use id="Braids" fill="#1F3140" fill-rule="evenodd" xlink:href="#am-path-braids"></use>
-<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-braids)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-braids-0)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
 <g transform="translate(0.000000, 0.000000)" id="Color">
 <rect x="0" y="0" width="264" height="280"></rect>
 </g>
 </g>
-<g mask="url(#am-mask-braids)"><ellipse cx="102" cy="48" rx="44" ry="28" transform="rotate(-22 102 48)" fill="#FFFFFF" fill-opacity="0.16"></ellipse><rect x="0" y="106" width="264" height="120" fill="#000000" fill-opacity="0.14"></rect><g fill="none" stroke="#000000" stroke-opacity="0.13" stroke-width="3" stroke-linecap="round"><path d="M92,22 C84,52 82,84 88,116"></path><path d="M118,14 C113,48 111,82 114,118"></path><path d="M146,14 C151,48 153,82 150,118"></path><path d="M172,22 C180,52 182,84 176,116"></path></g></g></g>
+<use xlink:href="#am-path-braids-0" fill="url(#am-shade-braids-0)"></use>
+<g mask="url(#am-mask-braids-0)"><g fill="none" stroke="#000000" stroke-opacity="0.16" stroke-width="2.5" stroke-linecap="round"><path d="M66,110 C70,116 76,117 80,114"></path><path d="M65.2,125 C69.2,131 75.2,132 79.2,129"></path><path d="M64.4,140 C68.4,146 74.4,147 78.4,144"></path><path d="M63.6,155 C67.6,161 73.6,162 77.6,159"></path><path d="M62.8,170 C66.8,176 72.8,177 76.8,174"></path><path d="M62,185 C66,191 72,192 76,189"></path></g></g>
+<defs>
+<path d="M181.5,114 A9.5,9 0 1,1 200.5,114 A9.5,9 0 1,1 181.5,114 Z M182.7,129 A9.1,9 0 1,1 200.9,129 A9.1,9 0 1,1 182.7,129 Z M183.9,144 A8.7,9 0 1,1 201.3,144 A8.7,9 0 1,1 183.9,144 Z M185.1,159 A8.3,9 0 1,1 201.7,159 A8.3,9 0 1,1 185.1,159 Z M186.3,174 A7.9,9 0 1,1 202.1,174 A7.9,9 0 1,1 186.3,174 Z M187.5,189 A7.5,9 0 1,1 202.5,189 A7.5,9 0 1,1 187.5,189 Z" id="am-path-braids-1" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-braids-1" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
+</defs>
+<mask id="am-mask-braids-1" fill="white">
+<use xlink:href="#am-path-braids-1"></use>
+</mask>
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-braids-1)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g transform="translate(0.000000, 0.000000)" id="Color">
+<rect x="0" y="0" width="264" height="280"></rect>
+</g>
+</g>
+<use xlink:href="#am-path-braids-1" fill="url(#am-shade-braids-1)"></use>
+<g mask="url(#am-mask-braids-1)"><g fill="none" stroke="#000000" stroke-opacity="0.16" stroke-width="2.5" stroke-linecap="round"><path d="M184,110 C188,116 194,117 198,114"></path><path d="M184.8,125 C188.8,131 194.8,132 198.8,129"></path><path d="M185.6,140 C189.6,146 195.6,147 199.6,144"></path><path d="M186.4,155 C190.4,161 196.4,162 200.4,159"></path><path d="M187.2,170 C191.2,176 197.2,177 201.2,174"></path><path d="M188,185 C192,191 198,192 202,189"></path></g></g>
+<defs>
+<path d="M72,110 C71,59 98,29 132,29 C166,29 193,59 192,110 L183,110 C183,80 168,62 132,62 C96,62 81,80 81,110 Z" id="am-path-braids-2" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-braids-2" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
+</defs>
+<mask id="am-mask-braids-2" fill="white">
+<use xlink:href="#am-path-braids-2"></use>
+</mask>
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-braids-2)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g transform="translate(0.000000, 0.000000)" id="Color">
+<rect x="0" y="0" width="264" height="280"></rect>
+</g>
+</g>
+<use xlink:href="#am-path-braids-2" fill="url(#am-shade-braids-2)"></use>
+<g mask="url(#am-mask-braids-2)"><ellipse cx="104" cy="50" rx="40" ry="22" transform="rotate(-24 104 50)" fill="#FFFFFF" fill-opacity="0.18"></ellipse><g fill="none" stroke="#000000" stroke-opacity="0.16" stroke-width="2.5" stroke-linecap="round"><path d="M132,32 L132,60"></path><path d="M126,36 C106,46 92,66 84,104"></path><path d="M138,36 C158,46 172,66 180,104"></path></g></g>
+<g fill="#000000" fill-opacity="0.32"><rect x="61" y="190" width="14" height="5" rx="2.5"></rect><rect x="189" y="190" width="14" height="5" rx="2.5"></rect></g></g>
+</g>
 """),
   Afro("""
-<g id="Top" stroke-width="1" fill-rule="evenodd">
-<defs>
-<path d="M132,8 C178,8 210,42 210,84 C210,114 192,134 168,140 C172,116 166,96 152,84 C148,68 142,60 132,60 C122,60 116,68 112,84 C98,96 92,116 96,140 C72,134 54,114 54,84 C54,42 86,8 132,8 Z" id="am-path-afro"></path>
+<g id="Top" stroke-width="1" fill-rule="evenodd"><g id="HairStyles/Afro"><defs>
+<path d="M69.6,120 C64.1,119.2 58.3,104.4 61.8,100 C56.7,97.7 55.5,81.7 60.2,78.6 C56,74.9 59.6,59.3 65,57.7 C62.1,52.9 70.1,39 75.7,39.1 C74.4,33.7 86.1,22.8 91.4,24.5 C91.8,18.9 106.2,12 110.8,15.2 C112.8,10 128.6,7.6 132,12 C135.4,7.6 151.2,10 153.2,15.2 C157.8,12 172.2,18.9 172.6,24.5 C177.9,22.8 189.6,33.7 188.3,39.1 C193.9,39 201.9,52.9 199,57.7 C204.4,59.3 208,74.9 203.8,78.6 C208.5,81.7 207.3,97.7 202.2,100 C205.7,104.4 199.9,119.2 194.4,120 L188,124 C188,92 166,66 132,66 C98,66 76,92 76,124 Z" id="am-path-afro-0" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-afro-0" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
 </defs>
-<mask id="am-mask-afro" fill="white">
-<use xlink:href="#am-path-afro"></use>
+<mask id="am-mask-afro-0" fill="white">
+<use xlink:href="#am-path-afro-0"></use>
 </mask>
-<use id="Afro" fill="#1F3140" fill-rule="evenodd" xlink:href="#am-path-afro"></use>
-<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-afro)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-afro-0)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
 <g transform="translate(0.000000, 0.000000)" id="Color">
 <rect x="0" y="0" width="264" height="280"></rect>
 </g>
 </g>
-<g mask="url(#am-mask-afro)"><ellipse cx="102" cy="48" rx="44" ry="28" transform="rotate(-22 102 48)" fill="#FFFFFF" fill-opacity="0.16"></ellipse><rect x="0" y="106" width="264" height="120" fill="#000000" fill-opacity="0.14"></rect><g fill="none" stroke="#000000" stroke-opacity="0.13" stroke-width="3" stroke-linecap="round"><path d="M92,22 C84,52 82,84 88,116"></path><path d="M118,14 C113,48 111,82 114,118"></path><path d="M146,14 C151,48 153,82 150,118"></path><path d="M172,22 C180,52 182,84 176,116"></path></g></g></g>
+<use xlink:href="#am-path-afro-0" fill="url(#am-shade-afro-0)"></use>
+<g mask="url(#am-mask-afro-0)"><ellipse cx="100" cy="38" rx="34" ry="22" transform="rotate(-24 100 38)" fill="#FFFFFF" fill-opacity="0.18"></ellipse><g fill="#000000" fill-opacity="0.1"><circle cx="84" cy="50" r="5"></circle><circle cx="110" cy="34" r="5"></circle><circle cx="150" cy="30" r="5"></circle><circle cx="178" cy="46" r="5"></circle><circle cx="196" cy="76" r="5"></circle><circle cx="70" cy="84" r="5"></circle><circle cx="128" cy="50" r="5"></circle><circle cx="100" cy="60" r="5"></circle><circle cx="168" cy="62" r="5"></circle><circle cx="196" cy="104" r="5"></circle><circle cx="68" cy="108" r="5"></circle><circle cx="146" cy="44" r="5"></circle></g></g>
+</g>
+</g>
 """),
   SidePart("""
-<g id="Top" stroke-width="1" fill-rule="evenodd">
-<defs>
-<path d="M74,104 C74,54 100,30 132,30 C164,30 190,54 190,104 C188,80 176,62 150,58 C140,70 122,74 100,72 C86,71 78,84 74,104 Z" id="am-path-sidepart"></path>
+<g id="Top" stroke-width="1" fill-rule="evenodd"><g id="HairStyles/SidePart"><defs>
+<path d="M72,106 C70,56 98,28 134,28 C168,28 194,56 192,106 L186,106 C186,94 182,84 176,80 C156,82 130,76 112,64 C104,72 92,80 82,84 C80,90 79,98 79,106 Z" id="am-path-sidepart-0" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-sidepart-0" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
 </defs>
-<mask id="am-mask-sidepart" fill="white">
-<use xlink:href="#am-path-sidepart"></use>
+<mask id="am-mask-sidepart-0" fill="white">
+<use xlink:href="#am-path-sidepart-0"></use>
 </mask>
-<use id="SidePart" fill="#1F3140" fill-rule="evenodd" xlink:href="#am-path-sidepart"></use>
-<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-sidepart)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-sidepart-0)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
 <g transform="translate(0.000000, 0.000000)" id="Color">
 <rect x="0" y="0" width="264" height="280"></rect>
 </g>
 </g>
-<g mask="url(#am-mask-sidepart)"><ellipse cx="102" cy="48" rx="44" ry="28" transform="rotate(-22 102 48)" fill="#FFFFFF" fill-opacity="0.16"></ellipse><rect x="0" y="106" width="264" height="120" fill="#000000" fill-opacity="0.14"></rect><g fill="none" stroke="#000000" stroke-opacity="0.13" stroke-width="3" stroke-linecap="round"><path d="M92,22 C84,52 82,84 88,116"></path><path d="M118,14 C113,48 111,82 114,118"></path><path d="M146,14 C151,48 153,82 150,118"></path><path d="M172,22 C180,52 182,84 176,116"></path></g></g></g>
+<use xlink:href="#am-path-sidepart-0" fill="url(#am-shade-sidepart-0)"></use>
+<g mask="url(#am-mask-sidepart-0)"><ellipse cx="146" cy="44" rx="30" ry="12" transform="rotate(-24 146 44)" fill="#FFFFFF" fill-opacity="0.18"></ellipse><g fill="none" stroke="#000000" stroke-opacity="0.16" stroke-width="2.5" stroke-linecap="round"><path d="M104,40 C98,52 92,64 86,80"></path><path d="M108,40 C132,50 156,66 182,78"></path><path d="M120,36 C142,44 166,56 186,72"></path></g><path d="M106,32 L110,66" stroke="#000000" stroke-opacity="0.25" stroke-width="3" stroke-linecap="round" fill="none"></path></g>
+</g>
+</g>
 """),
   Bangs("""
-<g id="Top" stroke-width="1" fill-rule="evenodd">
-<defs>
-<path d="M74,106 C74,54 100,30 132,30 C164,30 190,54 190,106 C190,84 178,66 160,64 L156,86 L146,66 L140,88 L130,66 L124,88 L114,66 L108,86 L104,64 C86,66 74,84 74,106 Z" id="am-path-bangs"></path>
+<g id="Top" stroke-width="1" fill-rule="evenodd"><g id="HairStyles/Bangs"><defs>
+<path d="M70,118 C66,56 96,26 132,26 C168,26 198,56 194,118 L184,118 C184,104 182,94 180,82 C176,86 172,86 168,82 C164,86 158,86 154,82 C150,86 144,86 140,82 C136,86 130,86 126,82 C122,86 116,86 112,82 C108,86 102,86 98,82 C94,86 88,86 84,82 C82,94 80,104 80,118 Z" id="am-path-bangs-0" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-bangs-0" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
 </defs>
-<mask id="am-mask-bangs" fill="white">
-<use xlink:href="#am-path-bangs"></use>
+<mask id="am-mask-bangs-0" fill="white">
+<use xlink:href="#am-path-bangs-0"></use>
 </mask>
-<use id="Bangs" fill="#1F3140" fill-rule="evenodd" xlink:href="#am-path-bangs"></use>
-<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-bangs)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-bangs-0)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
 <g transform="translate(0.000000, 0.000000)" id="Color">
 <rect x="0" y="0" width="264" height="280"></rect>
 </g>
 </g>
-<g mask="url(#am-mask-bangs)"><ellipse cx="102" cy="48" rx="44" ry="28" transform="rotate(-22 102 48)" fill="#FFFFFF" fill-opacity="0.16"></ellipse><rect x="0" y="106" width="264" height="120" fill="#000000" fill-opacity="0.14"></rect><g fill="none" stroke="#000000" stroke-opacity="0.13" stroke-width="3" stroke-linecap="round"><path d="M92,22 C84,52 82,84 88,116"></path><path d="M118,14 C113,48 111,82 114,118"></path><path d="M146,14 C151,48 153,82 150,118"></path><path d="M172,22 C180,52 182,84 176,116"></path></g></g></g>
+<use xlink:href="#am-path-bangs-0" fill="url(#am-shade-bangs-0)"></use>
+<g mask="url(#am-mask-bangs-0)"><ellipse cx="104" cy="50" rx="40" ry="22" transform="rotate(-24 104 50)" fill="#FFFFFF" fill-opacity="0.18"></ellipse><g fill="none" stroke="#000000" stroke-opacity="0.16" stroke-width="2.5" stroke-linecap="round"><path d="M98,40 C92,56 90,70 92,86"></path><path d="M118,34 C114,52 112,70 112,86"></path><path d="M146,34 C150,52 152,70 154,86"></path><path d="M166,40 C172,56 174,70 172,86"></path></g></g>
+</g>
+</g>
 """),
   Bob("""
-<g id="Top" stroke-width="1" fill-rule="evenodd">
-<defs>
-<path d="M70,140 C70,60 96,30 132,30 C168,30 194,60 194,140 C186,140 180,138 176,134 C178,96 170,70 132,70 C94,70 86,96 88,134 C84,138 78,140 70,140 Z" id="am-path-bob"></path>
+<g id="Top" stroke-width="1" fill-rule="evenodd"><g id="HairStyles/Bob"><defs>
+<path d="M66,148 C60,70 94,28 132,28 C170,28 204,70 198,148 C192,154 182,154 178,146 C184,128 186,108 182,92 C164,90 140,80 124,64 C114,78 98,88 84,92 C80,108 80,128 86,146 C82,154 72,154 66,148 Z" id="am-path-bob-0" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-bob-0" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
 </defs>
-<mask id="am-mask-bob" fill="white">
-<use xlink:href="#am-path-bob"></use>
+<mask id="am-mask-bob-0" fill="white">
+<use xlink:href="#am-path-bob-0"></use>
 </mask>
-<use id="Bob" fill="#1F3140" fill-rule="evenodd" xlink:href="#am-path-bob"></use>
-<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-bob)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-bob-0)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
 <g transform="translate(0.000000, 0.000000)" id="Color">
 <rect x="0" y="0" width="264" height="280"></rect>
 </g>
 </g>
-<g mask="url(#am-mask-bob)"><ellipse cx="102" cy="48" rx="44" ry="28" transform="rotate(-22 102 48)" fill="#FFFFFF" fill-opacity="0.16"></ellipse><rect x="0" y="106" width="264" height="120" fill="#000000" fill-opacity="0.14"></rect><g fill="none" stroke="#000000" stroke-opacity="0.13" stroke-width="3" stroke-linecap="round"><path d="M92,22 C84,52 82,84 88,116"></path><path d="M118,14 C113,48 111,82 114,118"></path><path d="M146,14 C151,48 153,82 150,118"></path><path d="M172,22 C180,52 182,84 176,116"></path></g></g></g>
+<use xlink:href="#am-path-bob-0" fill="url(#am-shade-bob-0)"></use>
+<g mask="url(#am-mask-bob-0)"><ellipse cx="152" cy="46" rx="30" ry="14" transform="rotate(-24 152 46)" fill="#FFFFFF" fill-opacity="0.18"></ellipse><g fill="none" stroke="#000000" stroke-opacity="0.16" stroke-width="2.5" stroke-linecap="round"><path d="M120,34 C100,50 86,80 78,140"></path><path d="M126,36 C148,50 172,70 186,90"></path><path d="M140,34 C166,46 188,80 188,140"></path></g></g>
+</g>
+</g>
 """),
   Wavy("""
-<g id="Top" stroke-width="1" fill-rule="evenodd">
-<defs>
-<path d="M72,108 C72,54 99,28 132,28 C165,28 192,54 192,108 C186,92 190,74 176,66 C166,60 160,72 148,68 C138,65 138,56 128,58 C118,60 118,70 108,70 C96,70 92,60 84,68 C74,77 78,92 72,108 Z" id="am-path-wavy"></path>
+<g id="Top" stroke-width="1" fill-rule="evenodd"><g id="HairStyles/Wavy"><defs>
+<path d="M68,112 C60,56 96,26 132,26 C168,26 204,56 196,112 C192,116 188,116 186,110 C188,98 184,86 176,80 C170,86 162,86 158,78 C152,84 142,84 138,76 C132,82 122,82 118,76 C112,82 102,82 98,76 C92,84 84,84 80,80 C78,90 78,100 78,110 C76,116 70,116 68,112 Z" id="am-path-wavy-0" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-wavy-0" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
 </defs>
-<mask id="am-mask-wavy" fill="white">
-<use xlink:href="#am-path-wavy"></use>
+<mask id="am-mask-wavy-0" fill="white">
+<use xlink:href="#am-path-wavy-0"></use>
 </mask>
-<use id="Wavy" fill="#1F3140" fill-rule="evenodd" xlink:href="#am-path-wavy"></use>
-<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-wavy)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-wavy-0)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
 <g transform="translate(0.000000, 0.000000)" id="Color">
 <rect x="0" y="0" width="264" height="280"></rect>
 </g>
 </g>
-<g mask="url(#am-mask-wavy)"><ellipse cx="102" cy="48" rx="44" ry="28" transform="rotate(-22 102 48)" fill="#FFFFFF" fill-opacity="0.16"></ellipse><rect x="0" y="106" width="264" height="120" fill="#000000" fill-opacity="0.14"></rect><g fill="none" stroke="#000000" stroke-opacity="0.13" stroke-width="3" stroke-linecap="round"><path d="M92,22 C84,52 82,84 88,116"></path><path d="M118,14 C113,48 111,82 114,118"></path><path d="M146,14 C151,48 153,82 150,118"></path><path d="M172,22 C180,52 182,84 176,116"></path></g></g></g>
+<use xlink:href="#am-path-wavy-0" fill="url(#am-shade-wavy-0)"></use>
+<g mask="url(#am-mask-wavy-0)"><ellipse cx="104" cy="50" rx="40" ry="22" transform="rotate(-24 104 50)" fill="#FFFFFF" fill-opacity="0.18"></ellipse><g fill="none" stroke="#000000" stroke-opacity="0.16" stroke-width="2.5" stroke-linecap="round"><path d="M92,44 C84,58 92,66 84,80"></path><path d="M112,34 C104,48 112,58 106,74"></path><path d="M152,34 C160,48 152,58 158,74"></path><path d="M172,44 C180,58 172,66 180,80"></path></g></g>
+</g>
+</g>
 """),
   Buzz("""
-<g id="Top" stroke-width="1" fill-rule="evenodd">
-<defs>
-<path d="M78,92 C78,56 102,34 132,34 C162,34 186,56 186,92 C182,72 168,58 132,58 C96,58 82,72 78,92 Z" id="am-path-buzz"></path>
+<g id="Top" stroke-width="1" fill-rule="evenodd"><g id="HairStyles/Buzz"><defs>
+<path d="M75,98 C74,63 98,33 132,33 C166,33 190,63 189,98 L184,98 C184,80 168,62 132,62 C96,62 80,80 80,98 Z" id="am-path-buzz-0" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-buzz-0" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
 </defs>
-<mask id="am-mask-buzz" fill="white">
-<use xlink:href="#am-path-buzz"></use>
+<mask id="am-mask-buzz-0" fill="white">
+<use xlink:href="#am-path-buzz-0"></use>
 </mask>
-<use id="Buzz" fill="#1F3140" fill-rule="evenodd" xlink:href="#am-path-buzz"></use>
-<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-buzz)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-buzz-0)" fill="$TO_REPLACE_WITH_HAIRS_COLOR" fill-opacity="0.8">
 <g transform="translate(0.000000, 0.000000)" id="Color">
 <rect x="0" y="0" width="264" height="280"></rect>
 </g>
 </g>
-<g mask="url(#am-mask-buzz)"><ellipse cx="102" cy="48" rx="44" ry="28" transform="rotate(-22 102 48)" fill="#FFFFFF" fill-opacity="0.16"></ellipse><rect x="0" y="106" width="264" height="120" fill="#000000" fill-opacity="0.14"></rect><g fill="none" stroke="#000000" stroke-opacity="0.13" stroke-width="3" stroke-linecap="round"><path d="M92,22 C84,52 82,84 88,116"></path><path d="M118,14 C113,48 111,82 114,118"></path><path d="M146,14 C151,48 153,82 150,118"></path><path d="M172,22 C180,52 182,84 176,116"></path></g></g></g>
+<use xlink:href="#am-path-buzz-0" fill="url(#am-shade-buzz-0)"></use>
+<g mask="url(#am-mask-buzz-0)"><ellipse cx="108" cy="50" rx="28" ry="12" transform="rotate(-24 108 50)" fill="#FFFFFF" fill-opacity="0.18"></ellipse></g>
+</g>
+</g>
+"""),
+  Pompadour("""
+<g id="Top" stroke-width="1" fill-rule="evenodd"><g id="HairStyles/Pompadour"><defs>
+<path d="M74,112 C73,63 98,33 132,33 C166,33 191,63 190,112 L185,112 C185,80 168,62 132,62 C96,62 79,80 79,112 Z" id="am-path-pompadour-0" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-pompadour-0" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
+</defs>
+<mask id="am-mask-pompadour-0" fill="white">
+<use xlink:href="#am-path-pompadour-0"></use>
+</mask>
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-pompadour-0)" fill="$TO_REPLACE_WITH_HAIRS_COLOR" fill-opacity="0.5">
+<g transform="translate(0.000000, 0.000000)" id="Color">
+<rect x="0" y="0" width="264" height="280"></rect>
+</g>
+</g>
+<g mask="url(#am-mask-pompadour-0)"></g>
+<defs>
+<path d="M84,72 C80,40 98,14 132,12 C166,10 190,26 188,54 C187,66 182,72 178,74 C168,64 148,62 132,64 C112,66 96,68 84,72 Z" id="am-path-pompadour-1" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-pompadour-1" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
+</defs>
+<mask id="am-mask-pompadour-1" fill="white">
+<use xlink:href="#am-path-pompadour-1"></use>
+</mask>
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-pompadour-1)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g transform="translate(0.000000, 0.000000)" id="Color">
+<rect x="0" y="0" width="264" height="280"></rect>
+</g>
+</g>
+<use xlink:href="#am-path-pompadour-1" fill="url(#am-shade-pompadour-1)"></use>
+<g mask="url(#am-mask-pompadour-1)"><ellipse cx="112" cy="28" rx="26" ry="10" transform="rotate(-24 112 28)" fill="#FFFFFF" fill-opacity="0.18"></ellipse><g fill="none" stroke="#000000" stroke-opacity="0.16" stroke-width="2.5" stroke-linecap="round"><path d="M92,60 C98,34 120,20 150,20"></path><path d="M106,62 C114,40 136,28 168,30"></path><path d="M124,62 C134,46 154,40 180,46"></path></g></g>
+</g>
+</g>
+"""),
+  SpaceBuns("""
+<g id="Top" stroke-width="1" fill-rule="evenodd"><g id="HairStyles/SpaceBuns"><defs>
+<path d="M76,34 A18,17 0 1,1 112,34 A18,17 0 1,1 76,34 Z" id="am-path-spacebuns-0" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-spacebuns-0" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
+</defs>
+<mask id="am-mask-spacebuns-0" fill="white">
+<use xlink:href="#am-path-spacebuns-0"></use>
+</mask>
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-spacebuns-0)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g transform="translate(0.000000, 0.000000)" id="Color">
+<rect x="0" y="0" width="264" height="280"></rect>
+</g>
+</g>
+<use xlink:href="#am-path-spacebuns-0" fill="url(#am-shade-spacebuns-0)"></use>
+<g mask="url(#am-mask-spacebuns-0)"><ellipse cx="88" cy="28" rx="7" ry="6" transform="rotate(-24 88 28)" fill="#FFFFFF" fill-opacity="0.18"></ellipse><g fill="none" stroke="#000000" stroke-opacity="0.16" stroke-width="2.5" stroke-linecap="round"><path d="M82,30 C88,22 100,22 106,30"></path><path d="M80,40 C88,48 102,48 108,40"></path></g></g>
+<defs>
+<path d="M152,34 A18,17 0 1,1 188,34 A18,17 0 1,1 152,34 Z" id="am-path-spacebuns-1" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-spacebuns-1" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
+</defs>
+<mask id="am-mask-spacebuns-1" fill="white">
+<use xlink:href="#am-path-spacebuns-1"></use>
+</mask>
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-spacebuns-1)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g transform="translate(0.000000, 0.000000)" id="Color">
+<rect x="0" y="0" width="264" height="280"></rect>
+</g>
+</g>
+<use xlink:href="#am-path-spacebuns-1" fill="url(#am-shade-spacebuns-1)"></use>
+<g mask="url(#am-mask-spacebuns-1)"><ellipse cx="164" cy="28" rx="7" ry="6" transform="rotate(-24 164 28)" fill="#FFFFFF" fill-opacity="0.18"></ellipse><g fill="none" stroke="#000000" stroke-opacity="0.16" stroke-width="2.5" stroke-linecap="round"><path d="M158,30 C164,22 176,22 182,30"></path><path d="M156,40 C164,48 178,48 184,40"></path></g></g>
+<defs>
+<path d="M73,104 C72,60 98,30 132,30 C166,30 192,60 191,104 L185,104 C185,80 168,62 132,62 C96,62 79,80 79,104 Z" id="am-path-spacebuns-2" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-spacebuns-2" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
+</defs>
+<mask id="am-mask-spacebuns-2" fill="white">
+<use xlink:href="#am-path-spacebuns-2"></use>
+</mask>
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-spacebuns-2)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g transform="translate(0.000000, 0.000000)" id="Color">
+<rect x="0" y="0" width="264" height="280"></rect>
+</g>
+</g>
+<use xlink:href="#am-path-spacebuns-2" fill="url(#am-shade-spacebuns-2)"></use>
+<g mask="url(#am-mask-spacebuns-2)"><ellipse cx="104" cy="50" rx="40" ry="22" transform="rotate(-24 104 50)" fill="#FFFFFF" fill-opacity="0.18"></ellipse><g fill="none" stroke="#000000" stroke-opacity="0.16" stroke-width="2.5" stroke-linecap="round"><path d="M132,32 L132,60"></path><path d="M126,36 C110,42 98,52 90,64"></path><path d="M138,36 C154,42 166,52 174,64"></path></g></g>
+</g>
+</g>
+"""),
+  Pixie("""
+<g id="Top" stroke-width="1" fill-rule="evenodd"><g id="HairStyles/Pixie"><defs>
+<path d="M74,104 C70,56 98,28 134,28 C170,28 194,56 190,104 L184,104 C184,86 178,74 168,68 C150,70 126,74 108,84 C96,90 88,96 82,100 L80,104 Z" id="am-path-pixie-0" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-pixie-0" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
+</defs>
+<mask id="am-mask-pixie-0" fill="white">
+<use xlink:href="#am-path-pixie-0"></use>
+</mask>
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-pixie-0)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g transform="translate(0.000000, 0.000000)" id="Color">
+<rect x="0" y="0" width="264" height="280"></rect>
+</g>
+</g>
+<use xlink:href="#am-path-pixie-0" fill="url(#am-shade-pixie-0)"></use>
+<g mask="url(#am-mask-pixie-0)"><ellipse cx="116" cy="42" rx="28" ry="12" transform="rotate(-24 116 42)" fill="#FFFFFF" fill-opacity="0.18"></ellipse><g fill="none" stroke="#000000" stroke-opacity="0.16" stroke-width="2.5" stroke-linecap="round"><path d="M164,40 C140,52 118,66 92,92"></path><path d="M176,52 C152,62 130,74 104,90"></path><path d="M100,40 C90,52 84,66 82,84"></path></g></g>
+</g>
+</g>
+"""),
+  Mullet("""
+<g id="Top" stroke-width="1" fill-rule="evenodd"><g id="HairStyles/Mullet"><defs>
+<path d="M74,108 C66,128 62,160 66,186 C78,196 96,200 110,198 L109,179 C92,171 80,155 78,136 Z" id="am-path-mullet-0" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-mullet-0" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
+</defs>
+<mask id="am-mask-mullet-0" fill="white">
+<use xlink:href="#am-path-mullet-0"></use>
+</mask>
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-mullet-0)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g transform="translate(0.000000, 0.000000)" id="Color">
+<rect x="0" y="0" width="264" height="280"></rect>
+</g>
+</g>
+<use xlink:href="#am-path-mullet-0" fill="url(#am-shade-mullet-0)"></use>
+<g mask="url(#am-mask-mullet-0)"><g fill="none" stroke="#000000" stroke-opacity="0.16" stroke-width="2.5" stroke-linecap="round"><path d="M72,124 C68,150 72,172 84,188"></path></g></g>
+<defs>
+<path d="M190,108 C198,128 202,160 198,186 C186,196 168,200 154,198 L155,179 C172,171 184,155 186,136 Z" id="am-path-mullet-1" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-mullet-1" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
+</defs>
+<mask id="am-mask-mullet-1" fill="white">
+<use xlink:href="#am-path-mullet-1"></use>
+</mask>
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-mullet-1)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g transform="translate(0.000000, 0.000000)" id="Color">
+<rect x="0" y="0" width="264" height="280"></rect>
+</g>
+</g>
+<use xlink:href="#am-path-mullet-1" fill="url(#am-shade-mullet-1)"></use>
+<g mask="url(#am-mask-mullet-1)"><g fill="none" stroke="#000000" stroke-opacity="0.16" stroke-width="2.5" stroke-linecap="round"><path d="M192,124 C196,150 192,172 180,188"></path></g></g>
+<defs>
+<path d="M73,112 C72,60 98,30 132,30 C166,30 192,60 191,112 L184,112 C184,84 168,66 132,66 C96,66 80,84 80,112 Z" id="am-path-mullet-2" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-mullet-2" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
+</defs>
+<mask id="am-mask-mullet-2" fill="white">
+<use xlink:href="#am-path-mullet-2"></use>
+</mask>
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-mullet-2)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g transform="translate(0.000000, 0.000000)" id="Color">
+<rect x="0" y="0" width="264" height="280"></rect>
+</g>
+</g>
+<use xlink:href="#am-path-mullet-2" fill="url(#am-shade-mullet-2)"></use>
+<g mask="url(#am-mask-mullet-2)"><ellipse cx="104" cy="50" rx="40" ry="22" transform="rotate(-24 104 50)" fill="#FFFFFF" fill-opacity="0.18"></ellipse><g fill="none" stroke="#000000" stroke-opacity="0.16" stroke-width="2.5" stroke-linecap="round"><path d="M98,42 C92,56 90,70 92,86"></path><path d="M120,34 C116,50 114,64 116,74"></path><path d="M144,34 C148,50 150,64 148,74"></path><path d="M166,42 C172,56 174,70 172,86"></path></g></g>
+</g>
+</g>
+"""),
+  BowlCut("""
+<g id="Top" stroke-width="1" fill-rule="evenodd"><g id="HairStyles/BowlCut"><defs>
+<path d="M70,122 C64,58 96,26 132,26 C168,26 200,58 194,122 L184,122 C184,110 184,96 182,84 L82,84 C80,96 80,110 80,122 Z" id="am-path-bowlcut-0" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-bowlcut-0" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
+</defs>
+<mask id="am-mask-bowlcut-0" fill="white">
+<use xlink:href="#am-path-bowlcut-0"></use>
+</mask>
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-bowlcut-0)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g transform="translate(0.000000, 0.000000)" id="Color">
+<rect x="0" y="0" width="264" height="280"></rect>
+</g>
+</g>
+<use xlink:href="#am-path-bowlcut-0" fill="url(#am-shade-bowlcut-0)"></use>
+<g mask="url(#am-mask-bowlcut-0)"><ellipse cx="104" cy="50" rx="40" ry="22" transform="rotate(-24 104 50)" fill="#FFFFFF" fill-opacity="0.18"></ellipse><g fill="none" stroke="#000000" stroke-opacity="0.16" stroke-width="2.5" stroke-linecap="round"><path d="M100,40 C94,56 92,70 94,82"></path><path d="M118,32 C114,52 114,68 116,82"></path><path d="M146,32 C150,52 150,68 148,82"></path><path d="M164,40 C170,56 172,70 170,82"></path></g><rect x="70" y="78" width="124" height="6" fill="#000000" fill-opacity="0.12"></rect></g>
+</g>
+</g>
+"""),
+  Fauxhawk("""
+<g id="Top" stroke-width="1" fill-rule="evenodd"><g id="HairStyles/Fauxhawk"><defs>
+<path d="M74,112 C73,63 98,33 132,33 C166,33 191,63 190,112 L185,112 C185,80 168,62 132,62 C96,62 79,80 79,112 Z" id="am-path-fauxhawk-0" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-fauxhawk-0" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
+</defs>
+<mask id="am-mask-fauxhawk-0" fill="white">
+<use xlink:href="#am-path-fauxhawk-0"></use>
+</mask>
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-fauxhawk-0)" fill="$TO_REPLACE_WITH_HAIRS_COLOR" fill-opacity="0.45">
+<g transform="translate(0.000000, 0.000000)" id="Color">
+<rect x="0" y="0" width="264" height="280"></rect>
+</g>
+</g>
+<g mask="url(#am-mask-fauxhawk-0)"></g>
+<defs>
+<path d="M104,66 C100,52 102,38 108,28 L112,34 L118,14 L126,26 L132,8 L138,26 L146,14 L152,34 L156,28 C162,38 164,52 160,66 C146,60 118,60 104,66 Z" id="am-path-fauxhawk-1" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-fauxhawk-1" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
+</defs>
+<mask id="am-mask-fauxhawk-1" fill="white">
+<use xlink:href="#am-path-fauxhawk-1"></use>
+</mask>
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-fauxhawk-1)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g transform="translate(0.000000, 0.000000)" id="Color">
+<rect x="0" y="0" width="264" height="280"></rect>
+</g>
+</g>
+<use xlink:href="#am-path-fauxhawk-1" fill="url(#am-shade-fauxhawk-1)"></use>
+<g mask="url(#am-mask-fauxhawk-1)"><ellipse cx="122" cy="34" rx="12" ry="14" transform="rotate(-24 122 34)" fill="#FFFFFF" fill-opacity="0.18"></ellipse><g fill="none" stroke="#000000" stroke-opacity="0.16" stroke-width="2.5" stroke-linecap="round"><path d="M118,60 C118,44 120,30 122,22"></path><path d="M146,60 C146,44 144,30 142,22"></path><path d="M132,58 L132,16"></path></g></g>
+</g>
+</g>
+"""),
+  AfroPuff("""
+<g id="Top" stroke-width="1" fill-rule="evenodd"><g id="HairStyles/AfroPuff"><defs>
+<path d="M156,26 C159.6,28.6 155.9,40.1 151.4,40.1 C152.8,44.4 143,51.5 139.4,48.8 C138.1,53.1 125.9,53.1 124.6,48.8 C121,51.5 111.2,44.4 112.6,40.1 C108.1,40.1 104.4,28.6 108,26 C104.4,23.4 108.1,11.9 112.6,11.9 C111.2,7.6 121,0.5 124.6,3.2 C125.9,-1.1 138.1,-1.1 139.4,3.2 C143,0.5 152.8,7.6 151.4,11.9 C155.9,11.9 159.6,23.4 156,26 Z" id="am-path-afropuff-0" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-afropuff-0" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
+</defs>
+<mask id="am-mask-afropuff-0" fill="white">
+<use xlink:href="#am-path-afropuff-0"></use>
+</mask>
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-afropuff-0)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g transform="translate(0.000000, 0.000000)" id="Color">
+<rect x="0" y="0" width="264" height="280"></rect>
+</g>
+</g>
+<use xlink:href="#am-path-afropuff-0" fill="url(#am-shade-afropuff-0)"></use>
+<g mask="url(#am-mask-afropuff-0)"><ellipse cx="122" cy="18" rx="10" ry="7" transform="rotate(-24 122 18)" fill="#FFFFFF" fill-opacity="0.18"></ellipse><g fill="#000000" fill-opacity="0.1"><circle cx="120" cy="22" r="4"></circle><circle cx="142" cy="16" r="4"></circle><circle cx="136" cy="32" r="4"></circle><circle cx="148" cy="30" r="3"></circle></g></g>
+<defs>
+<path d="M73,104 C72,61 98,31 132,31 C166,31 192,61 191,104 L185,104 C185,80 168,62 132,62 C96,62 79,80 79,104 Z" id="am-path-afropuff-1" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-afropuff-1" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
+</defs>
+<mask id="am-mask-afropuff-1" fill="white">
+<use xlink:href="#am-path-afropuff-1"></use>
+</mask>
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-afropuff-1)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g transform="translate(0.000000, 0.000000)" id="Color">
+<rect x="0" y="0" width="264" height="280"></rect>
+</g>
+</g>
+<use xlink:href="#am-path-afropuff-1" fill="url(#am-shade-afropuff-1)"></use>
+<g mask="url(#am-mask-afropuff-1)"><ellipse cx="104" cy="50" rx="40" ry="22" transform="rotate(-24 104 50)" fill="#FFFFFF" fill-opacity="0.18"></ellipse><g fill="none" stroke="#000000" stroke-opacity="0.16" stroke-width="2.5" stroke-linecap="round"><path d="M92,90 C96,66 110,52 124,46"></path><path d="M172,90 C168,66 154,52 140,46"></path></g></g>
+<rect x="114" y="44" width="36" height="6" rx="3" fill="#000000" fill-opacity="0.3"></rect></g>
+</g>
+"""),
+  SideBraid("""
+<g id="Top" stroke-width="1" fill-rule="evenodd"><g id="HairStyles/SideBraid"><defs>
+<path d="M61,114 A11,9 0 1,1 83,114 A11,9 0 1,1 61,114 Z M60.4,128 A10.4,9 0 1,1 81.2,128 A10.4,9 0 1,1 60.4,128 Z M59.8,142 A9.8,9 0 1,1 79.4,142 A9.8,9 0 1,1 59.8,142 Z M59.2,156 A9.2,9 0 1,1 77.6,156 A9.2,9 0 1,1 59.2,156 Z M58.6,170 A8.6,9 0 1,1 75.8,170 A8.6,9 0 1,1 58.6,170 Z M58,184 A8,9 0 1,1 74,184 A8,9 0 1,1 58,184 Z M57.4,198 A7.4,9 0 1,1 72.2,198 A7.4,9 0 1,1 57.4,198 Z" id="am-path-sidebraid-0" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-sidebraid-0" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
+</defs>
+<mask id="am-mask-sidebraid-0" fill="white">
+<use xlink:href="#am-path-sidebraid-0"></use>
+</mask>
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-sidebraid-0)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g transform="translate(0.000000, 0.000000)" id="Color">
+<rect x="0" y="0" width="264" height="280"></rect>
+</g>
+</g>
+<use xlink:href="#am-path-sidebraid-0" fill="url(#am-shade-sidebraid-0)"></use>
+<g mask="url(#am-mask-sidebraid-0)"><g fill="none" stroke="#000000" stroke-opacity="0.16" stroke-width="2.5" stroke-linecap="round"><path d="M65,110 C69,116 75,117 79,114"></path><path d="M63.8,124 C67.8,130 73.8,131 77.8,128"></path><path d="M62.6,138 C66.6,144 72.6,145 76.6,142"></path><path d="M61.4,152 C65.4,158 71.4,159 75.4,156"></path><path d="M60.2,166 C64.2,172 70.2,173 74.2,170"></path><path d="M59,180 C63,186 69,187 73,184"></path><path d="M57.8,194 C61.8,200 67.8,201 71.8,198"></path></g></g>
+<defs>
+<path d="M72,112 C68,56 98,28 134,28 C170,28 196,56 190,104 L184,104 C184,84 176,70 162,64 C140,62 112,70 94,88 C88,96 84,104 84,112 Z" id="am-path-sidebraid-1" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-sidebraid-1" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
+</defs>
+<mask id="am-mask-sidebraid-1" fill="white">
+<use xlink:href="#am-path-sidebraid-1"></use>
+</mask>
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-sidebraid-1)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g transform="translate(0.000000, 0.000000)" id="Color">
+<rect x="0" y="0" width="264" height="280"></rect>
+</g>
+</g>
+<use xlink:href="#am-path-sidebraid-1" fill="url(#am-shade-sidebraid-1)"></use>
+<g mask="url(#am-mask-sidebraid-1)"><ellipse cx="142" cy="42" rx="28" ry="12" transform="rotate(-24 142 42)" fill="#FFFFFF" fill-opacity="0.18"></ellipse><g fill="none" stroke="#000000" stroke-opacity="0.16" stroke-width="2.5" stroke-linecap="round"><path d="M162,40 C136,48 108,68 86,104"></path><path d="M176,56 C150,58 120,74 92,106"></path><path d="M120,34 C104,44 90,64 80,100"></path></g></g>
+<rect x="57" y="197" width="15" height="5" rx="2.5" fill="#000000" fill-opacity="0.32"></rect></g>
+</g>
+"""),
+  Cornrows("""
+<g id="Top" stroke-width="1" fill-rule="evenodd"><g id="HairStyles/Cornrows"><defs>
+<path d="M73,104 C72,61 98,31 132,31 C166,31 192,61 191,104 L185,104 C185,80 168,62 132,62 C96,62 79,80 79,104 Z" id="am-path-cornrows-0" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-cornrows-0" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
+</defs>
+<mask id="am-mask-cornrows-0" fill="white">
+<use xlink:href="#am-path-cornrows-0"></use>
+</mask>
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-cornrows-0)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g transform="translate(0.000000, 0.000000)" id="Color">
+<rect x="0" y="0" width="264" height="280"></rect>
+</g>
+</g>
+<use xlink:href="#am-path-cornrows-0" fill="url(#am-shade-cornrows-0)"></use>
+<g mask="url(#am-mask-cornrows-0)"><g fill="none" stroke="#000000" stroke-opacity="0.32" stroke-width="2.5" stroke-linecap="round"><path d="M88,96 C88,70 100,48 116,34"></path><path d="M104,74 C106,56 114,42 124,32"></path><path d="M120,64 C122,50 126,40 132,30"></path><path d="M144,64 C142,50 138,40 132,30"></path><path d="M160,74 C158,56 150,42 140,32"></path><path d="M176,96 C176,70 164,48 148,34"></path></g><g fill="#FFFFFF" fill-opacity="0.14"><ellipse cx="96" cy="70" rx="4" ry="10" transform="rotate(30 96 70)"></ellipse><ellipse cx="112" cy="52" rx="4" ry="10" transform="rotate(35 112 52)"></ellipse><ellipse cx="132" cy="48" rx="4" ry="10"></ellipse><ellipse cx="152" cy="52" rx="4" ry="10" transform="rotate(-35 152 52)"></ellipse><ellipse cx="168" cy="70" rx="4" ry="10" transform="rotate(-30 168 70)"></ellipse></g></g>
+</g>
+</g>
+"""),
+  Receding("""
+<g id="Top" stroke-width="1" fill-rule="evenodd"><g id="HairStyles/Receding"><defs>
+<path d="M70,114 C68,96 69,84 73,76 C77,72 80,78 80,88 L79,114 Z M185,114 L184,88 C184,78 187,72 191,76 C195,84 196,96 194,114 Z" id="am-path-receding-0" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-receding-0" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
+</defs>
+<mask id="am-mask-receding-0" fill="white">
+<use xlink:href="#am-path-receding-0"></use>
+</mask>
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-receding-0)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g transform="translate(0.000000, 0.000000)" id="Color">
+<rect x="0" y="0" width="264" height="280"></rect>
+</g>
+</g>
+<use xlink:href="#am-path-receding-0" fill="url(#am-shade-receding-0)"></use>
+<g mask="url(#am-mask-receding-0)"><g fill="none" stroke="#000000" stroke-opacity="0.16" stroke-width="2.5" stroke-linecap="round"><path d="M74,78 C72,90 72,102 73,110"></path><path d="M190,78 C192,90 192,102 191,110"></path></g></g>
+</g>
+</g>
+"""),
+  Cap("""
+<g id="Top" stroke-width="1" fill-rule="evenodd"><g id="HairStyles/Cap"><defs>
+<path d="M73,106 C72,70 98,40 132,40 C166,40 192,70 191,106 L184,106 C184,84 168,66 132,66 C96,66 80,84 80,106 Z" id="am-path-cap-0" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-cap-0" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
+</defs>
+<mask id="am-mask-cap-0" fill="white">
+<use xlink:href="#am-path-cap-0"></use>
+</mask>
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-cap-0)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g transform="translate(0.000000, 0.000000)" id="Color">
+<rect x="0" y="0" width="264" height="280"></rect>
+</g>
+</g>
+<use xlink:href="#am-path-cap-0" fill="url(#am-shade-cap-0)"></use>
+<g mask="url(#am-mask-cap-0)"><g fill="none" stroke="#000000" stroke-opacity="0.16" stroke-width="2.5" stroke-linecap="round"><path d="M80,80 L80,104"></path><path d="M184,80 L184,104"></path></g></g>
+<g transform="translate(0,-8)"><path d="M72,84 C70,48 98,26 132,26 C166,26 194,48 192,84 C170,76 94,76 72,84 Z" fill="#C8402F"></path><path d="M72,84 C70,48 98,26 132,26 C106,30 88,52 86,80 Z" fill="#000000" fill-opacity="0.12"></path><path d="M132,27 L132,78" stroke="#000000" stroke-opacity="0.15" stroke-width="2.5"></path><path d="M68,86 C96,74 168,74 196,86 C200,88 202,94 196,96 C170,88 94,88 68,96 C62,94 64,88 68,86 Z" fill="#A8301F"></path><ellipse cx="132" cy="27" rx="6" ry="3" fill="#A8301F"></ellipse><ellipse cx="108" cy="46" rx="16" ry="8" transform="rotate(-24 108 46)" fill="#FFFFFF" fill-opacity="0.2"></ellipse></g></g>
+</g>
+"""),
+  Bandana("""
+<g id="Top" stroke-width="1" fill-rule="evenodd"><g id="HairStyles/Bandana"><defs>
+<path d="M73,108 C72,64 98,34 132,34 C166,34 192,64 191,108 L184,108 C184,92 168,74 132,74 C96,74 80,92 80,108 Z" id="am-path-bandana-0" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-bandana-0" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
+</defs>
+<mask id="am-mask-bandana-0" fill="white">
+<use xlink:href="#am-path-bandana-0"></use>
+</mask>
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-bandana-0)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g transform="translate(0.000000, 0.000000)" id="Color">
+<rect x="0" y="0" width="264" height="280"></rect>
+</g>
+</g>
+<use xlink:href="#am-path-bandana-0" fill="url(#am-shade-bandana-0)"></use>
+<g mask="url(#am-mask-bandana-0)"><g fill="none" stroke="#000000" stroke-opacity="0.16" stroke-width="2.5" stroke-linecap="round"><path d="M80,86 L80,106"></path><path d="M184,86 L184,106"></path></g></g>
+<path d="M72,84 C70,46 98,28 132,28 C166,28 194,46 192,84 C176,74 152,70 132,70 C112,70 88,74 72,84 Z" fill="#2E5E8C"></path><path d="M188,62 C200,60 212,66 214,78 C206,76 200,76 194,80 Z M190,70 C200,74 206,86 202,100 C198,92 194,86 188,82 Z" fill="#244B70"></path><g fill="#FFFFFF" fill-opacity="0.85"><circle cx="96" cy="48" r="2.2"></circle><circle cx="116" cy="38" r="2.2"></circle><circle cx="140" cy="36" r="2.2"></circle><circle cx="162" cy="44" r="2.2"></circle><circle cx="178" cy="60" r="2.2"></circle><circle cx="86" cy="66" r="2.2"></circle><circle cx="106" cy="60" r="2.2"></circle><circle cx="128" cy="54" r="2.2"></circle><circle cx="150" cy="56" r="2.2"></circle><circle cx="168" cy="68" r="2.2"></circle><circle cx="118" cy="68" r="2.2"></circle><circle cx="144" cy="68" r="2.2"></circle></g><path d="M72,84 C88,74 112,70 132,70 C152,70 176,74 192,84" fill="none" stroke="#000000" stroke-opacity="0.18" stroke-width="3"></path></g>
+</g>
+"""),
+  SideShave("""
+<g id="Top" stroke-width="1" fill-rule="evenodd"><g id="HairStyles/SideShave"><defs>
+<path d="M74,112 C73,63 98,33 132,33 C166,33 191,63 190,112 L185,112 C185,80 168,62 132,62 C96,62 79,80 79,112 Z" id="am-path-sideshave-0" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-sideshave-0" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
+</defs>
+<mask id="am-mask-sideshave-0" fill="white">
+<use xlink:href="#am-path-sideshave-0"></use>
+</mask>
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-sideshave-0)" fill="$TO_REPLACE_WITH_HAIRS_COLOR" fill-opacity="0.45">
+<g transform="translate(0.000000, 0.000000)" id="Color">
+<rect x="0" y="0" width="264" height="280"></rect>
+</g>
+</g>
+<g mask="url(#am-mask-sideshave-0)"></g>
+<defs>
+<path d="M100,40 C116,28 150,24 172,34 C192,44 200,70 198,110 C198,130 192,146 184,152 C186,134 186,112 180,96 C172,80 154,70 132,66 C120,64 108,58 100,40 Z" id="am-path-sideshave-1" fill-rule="nonzero"></path>
+<linearGradient id="am-shade-sideshave-1" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#000000" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.22"></stop></linearGradient>
+</defs>
+<mask id="am-mask-sideshave-1" fill="white">
+<use xlink:href="#am-path-sideshave-1"></use>
+</mask>
+<g id="$TO_REPLACE_WITH_HAIRS_COLOR_NAME" mask="url(#am-mask-sideshave-1)" fill="$TO_REPLACE_WITH_HAIRS_COLOR">
+<g transform="translate(0.000000, 0.000000)" id="Color">
+<rect x="0" y="0" width="264" height="280"></rect>
+</g>
+</g>
+<use xlink:href="#am-path-sideshave-1" fill="url(#am-shade-sideshave-1)"></use>
+<g mask="url(#am-mask-sideshave-1)"><ellipse cx="150" cy="40" rx="24" ry="10" transform="rotate(-24 150 40)" fill="#FFFFFF" fill-opacity="0.18"></ellipse><g fill="none" stroke="#000000" stroke-opacity="0.16" stroke-width="2.5" stroke-linecap="round"><path d="M112,40 C140,40 170,52 184,80"></path><path d="M124,52 C150,56 176,76 190,110"></path><path d="M150,64 C172,76 188,104 190,140"></path></g></g>
+</g>
+</g>
 """);
+
 
   final String svg;
 
