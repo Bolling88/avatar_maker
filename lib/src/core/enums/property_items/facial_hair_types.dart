@@ -70,227 +70,427 @@ enum FacialHairTypes implements PropertyItem {
         """),
   Goatee("""
         <g id="FacialHair/Goatee">
-									<defs>
-										<path d="M36,62 C44,58 68,58 76,62 C68,68 44,68 36,62 Z M44,88 C44,85 49,83 56,83 C63,83 68,85 68,88 C68,98 63,104 56,104 C49,104 44,98 44,88 Z" id="am-path-goatee"></path>
-									</defs>
-									<mask id="am-mask-goatee" fill="white">
-										<use xlink:href="#am-path-goatee"></use>
-									</mask>
-									<use id="Goatee" fill="#252E32" fill-rule="evenodd" xlink:href="#am-path-goatee"></use>
-									<g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-mask-goatee)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR">
-										<g transform="translate(0.000000, 0.000000)" id="Color">
-											<rect x="-80" y="-80" width="400" height="400"></rect>
-										</g>
-									</g>
-								<g mask="url(#am-mask-goatee)"><ellipse cx="34" cy="62" rx="26" ry="18" transform="rotate(-20 34 62)" fill="#FFFFFF" fill-opacity="0.15"></ellipse><rect x="-80" y="94" width="400" height="120" fill="#000000" fill-opacity="0.14"></rect><g fill="none" stroke="#000000" stroke-opacity="0.13" stroke-width="2.4" stroke-linecap="round"><path d="M28,58 C26,74 28,88 34,98"></path><path d="M48,62 C46,78 47,92 50,102"></path><path d="M66,62 C68,78 67,92 64,102"></path><path d="M86,58 C88,74 86,88 80,98"></path></g></g></g>
+        <defs><path id="am-beard-goatee-0" d="M56,89.2 C60,87 65,86.2 68.5,88.3 C69.5,97 64,106 56,107.5 C48,106 42.5,97 43.5,88.3 C47,86.2 52,87 56,89.2 Z" fill-rule="evenodd"></path>
+        <linearGradient id="am-beard-goatee-0-shade" gradientUnits="userSpaceOnUse" x1="0" y1="86" x2="0" y2="108"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.2"></stop></linearGradient></defs>
+        <mask id="am-beard-goatee-0-mask" fill="white"><use fill-rule="evenodd" xlink:href="#am-beard-goatee-0"></use></mask>
+        <use fill="#000000" fill-opacity="0.12" fill-rule="evenodd" transform="translate(0,1.4)" xlink:href="#am-beard-goatee-0"></use>
+        <g>
+        <use fill="#252E32" fill-rule="evenodd" xlink:href="#am-beard-goatee-0"></use>
+        <g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-beard-goatee-0-mask)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR"><rect x="-80" y="-80" width="400" height="400"></rect></g>
+        <g mask="url(#am-beard-goatee-0-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-goatee-0-shade)"></rect><g fill="none" stroke="#000000" stroke-opacity="0.12" stroke-width="1.2" stroke-linecap="round"><path d="M52,93 C51,98 52,102 54,105"></path><path d="M60,93 C61,98 60,102 58,105"></path></g></g>
+        </g>
+        <defs><path id="am-beard-goatee-1" d="M56,58 C51,55 42,55.3 39,59 C35.5,61.5 33.5,65.5 34,69.5 C40,67.3 44,65.5 50,65.9 C53,66.1 55,66.5 56,66.9 C57,66.5 59,66.1 62,65.9 C68,65.5 72,67.3 78,69.5 C78.5,65.5 76.5,61.5 73,59 C70,55.3 61,55 56,58 Z" fill-rule="evenodd"></path>
+        <linearGradient id="am-beard-goatee-1-shade" gradientUnits="userSpaceOnUse" x1="0" y1="55" x2="0" y2="69"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.2"></stop></linearGradient></defs>
+        <mask id="am-beard-goatee-1-mask" fill="white"><use fill-rule="evenodd" xlink:href="#am-beard-goatee-1"></use></mask>
+        <use fill="#000000" fill-opacity="0.12" fill-rule="evenodd" transform="translate(0,1.4)" xlink:href="#am-beard-goatee-1"></use>
+        <g>
+        <use fill="#252E32" fill-rule="evenodd" xlink:href="#am-beard-goatee-1"></use>
+        <g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-beard-goatee-1-mask)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR"><rect x="-80" y="-80" width="400" height="400"></rect></g>
+        <g mask="url(#am-beard-goatee-1-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-goatee-1-shade)"></rect><g fill="none" stroke="#000000" stroke-opacity="0.12" stroke-width="1.2" stroke-linecap="round"><path d="M56,59.5 L56,64.5"></path></g></g>
+        </g>
+        </g>
         """),
   SoulPatch("""
         <g id="FacialHair/SoulPatch">
-									<defs>
-										<path d="M50,88 C50,86 52,85 56,85 C60,85 62,86 62,88 C62,93.5 60,96 56,96 C52,96 50,93.5 50,88 Z" id="am-path-soulpatch"></path>
-									</defs>
-									<mask id="am-mask-soulpatch" fill="white">
-										<use xlink:href="#am-path-soulpatch"></use>
-									</mask>
-									<use id="Soul-Patch" fill="#252E32" fill-rule="evenodd" xlink:href="#am-path-soulpatch"></use>
-									<g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-mask-soulpatch)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR">
-										<g transform="translate(0.000000, 0.000000)" id="Color">
-											<rect x="-80" y="-80" width="400" height="400"></rect>
-										</g>
-									</g>
-								<g mask="url(#am-mask-soulpatch)"><ellipse cx="34" cy="62" rx="26" ry="18" transform="rotate(-20 34 62)" fill="#FFFFFF" fill-opacity="0.15"></ellipse><rect x="-80" y="94" width="400" height="120" fill="#000000" fill-opacity="0.14"></rect><g fill="none" stroke="#000000" stroke-opacity="0.13" stroke-width="2.4" stroke-linecap="round"><path d="M28,58 C26,74 28,88 34,98"></path><path d="M48,62 C46,78 47,92 50,102"></path><path d="M66,62 C68,78 67,92 64,102"></path><path d="M86,58 C88,74 86,88 80,98"></path></g></g></g>
+        <defs><path id="am-beard-soul-patch-0" d="M56,88.6 C58,87.4 60.5,87 62,87.6 C62,92 59,97 56,100 C53,97 50,92 50,87.6 C51.5,87 54,87.4 56,88.6 Z" fill-rule="evenodd"></path>
+        <linearGradient id="am-beard-soul-patch-0-shade" gradientUnits="userSpaceOnUse" x1="0" y1="87" x2="0" y2="100"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.2"></stop></linearGradient></defs>
+        <mask id="am-beard-soul-patch-0-mask" fill="white"><use fill-rule="evenodd" xlink:href="#am-beard-soul-patch-0"></use></mask>
+        <use fill="#000000" fill-opacity="0.12" fill-rule="evenodd" transform="translate(0,1.4)" xlink:href="#am-beard-soul-patch-0"></use>
+        <g>
+        <use fill="#252E32" fill-rule="evenodd" xlink:href="#am-beard-soul-patch-0"></use>
+        <g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-beard-soul-patch-0-mask)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR"><rect x="-80" y="-80" width="400" height="400"></rect></g>
+        <g mask="url(#am-beard-soul-patch-0-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-soul-patch-0-shade)"></rect><g fill="none" stroke="#000000" stroke-opacity="0.12" stroke-width="1.2" stroke-linecap="round"><path d="M56,91 L56,96.5"></path></g></g>
+        </g>
+        </g>
         """),
   MuttonChops("""
         <g id="FacialHair/MuttonChops">
-									<defs>
-										<path d="M2,34 C10,34 16,40 18,52 C20,64 22,74 30,84 C22,88 12,84 8,74 C4,62 2,48 2,34 Z M110,34 C102,34 96,40 94,52 C92,64 90,74 82,84 C90,88 100,84 104,74 C108,62 110,48 110,34 Z" id="am-path-muttonchops"></path>
-									</defs>
-									<mask id="am-mask-muttonchops" fill="white">
-										<use xlink:href="#am-path-muttonchops"></use>
-									</mask>
-									<use id="Mutton-Chops" fill="#252E32" fill-rule="evenodd" xlink:href="#am-path-muttonchops"></use>
-									<g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-mask-muttonchops)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR">
-										<g transform="translate(0.000000, 0.000000)" id="Color">
-											<rect x="-80" y="-80" width="400" height="400"></rect>
-										</g>
-									</g>
-								<g mask="url(#am-mask-muttonchops)"><ellipse cx="34" cy="62" rx="26" ry="18" transform="rotate(-20 34 62)" fill="#FFFFFF" fill-opacity="0.15"></ellipse><rect x="-80" y="94" width="400" height="120" fill="#000000" fill-opacity="0.14"></rect><g fill="none" stroke="#000000" stroke-opacity="0.13" stroke-width="2.4" stroke-linecap="round"><path d="M28,58 C26,74 28,88 34,98"></path><path d="M48,62 C46,78 47,92 50,102"></path><path d="M66,62 C68,78 67,92 64,102"></path><path d="M86,58 C88,74 86,88 80,98"></path></g></g></g>
+        <defs><path id="am-beard-mutton-chops-0" d="M-1.5,13.5 C2,12.4 6,12.6 8.6,14.4 C9.2,26 10.4,38 13.4,47 C17,56 23,62 28,68 C31.5,72.5 31,80 27,84.5 C24,87.5 19,89 14,88.6 C6,80 0.5,66 -1.5,50 L-1.5,13.5 Z M113.5,13.5 L113.5,50 C111.5,66 106,80 98,88.6 C93,89 88,87.5 85,84.5 C81,80 80.5,72.5 84,68 C89,62 95,56 98.6,47 C101.6,38 102.8,26 103.4,14.4 C106,12.6 110,12.4 113.5,13.5 Z" fill-rule="evenodd"></path>
+        <linearGradient id="am-beard-mutton-chops-0-shade" gradientUnits="userSpaceOnUse" x1="0" y1="12" x2="0" y2="90"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.2"></stop></linearGradient></defs>
+        <mask id="am-beard-mutton-chops-0-mask" fill="white"><use fill-rule="evenodd" xlink:href="#am-beard-mutton-chops-0"></use></mask>
+        <use fill="#000000" fill-opacity="0.12" fill-rule="evenodd" transform="translate(0,1.4)" xlink:href="#am-beard-mutton-chops-0"></use>
+        <g>
+        <use fill="#252E32" fill-rule="evenodd" xlink:href="#am-beard-mutton-chops-0"></use>
+        <g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-beard-mutton-chops-0-mask)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR"><rect x="-80" y="-80" width="400" height="400"></rect></g>
+        <g mask="url(#am-beard-mutton-chops-0-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-mutton-chops-0-shade)"></rect><g fill="none" stroke="#000000" stroke-opacity="0.12" stroke-width="1.2" stroke-linecap="round"><path d="M8,56 C12,66 17,74 22,80"></path><path d="M104,56 C100,66 95,74 90,80"></path></g></g>
+        </g>
+        </g>
         """),
   MoustacheHandlebar("""
         <g id="FacialHair/MoustacheHandlebar">
-									<defs>
-										<path d="M56,60 C48,56 36,55 28,58 C20,61 16,58 14,54 C12,50 9,52 11,58 C14,67 24,71 34,69 C42,67 50,65 56,65 C62,65 70,67 78,69 C88,71 98,67 101,58 C103,52 100,50 98,54 C96,58 92,61 84,58 C76,55 64,56 56,60 Z" id="am-path-handlebar"></path>
-									</defs>
-									<mask id="am-mask-handlebar" fill="white">
-										<use xlink:href="#am-path-handlebar"></use>
-									</mask>
-									<use id="Handlebar" fill="#252E32" fill-rule="evenodd" xlink:href="#am-path-handlebar"></use>
-									<g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-mask-handlebar)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR">
-										<g transform="translate(0.000000, 0.000000)" id="Color">
-											<rect x="-80" y="-80" width="400" height="400"></rect>
-										</g>
-									</g>
-								<g mask="url(#am-mask-handlebar)"><ellipse cx="34" cy="62" rx="26" ry="18" transform="rotate(-20 34 62)" fill="#FFFFFF" fill-opacity="0.15"></ellipse><rect x="-80" y="94" width="400" height="120" fill="#000000" fill-opacity="0.14"></rect><g fill="none" stroke="#000000" stroke-opacity="0.13" stroke-width="2.4" stroke-linecap="round"><path d="M28,58 C26,74 28,88 34,98"></path><path d="M48,62 C46,78 47,92 50,102"></path><path d="M66,62 C68,78 67,92 64,102"></path><path d="M86,58 C88,74 86,88 80,98"></path></g></g></g>
+        <defs><path id="am-beard-moustache-handlebar-0" d="M56,59 C50,55.6 40,55.6 33,58.6 C27.5,61 22,61 18.5,57.6 C16.3,55.4 16.8,51.6 19.6,51.2 C21.8,50.9 23.2,52.8 22.2,54.6 C21,53.6 19.6,54 19.8,55.6 C20.4,60.8 27.5,66 36,65.8 C44,65.6 51,64 56,65 C61,64 68,65.6 76,65.8 C84.5,66 91.6,60.8 92.2,55.6 C92.4,54 91,53.6 89.8,54.6 C88.8,52.8 90.2,50.9 92.4,51.2 C95.2,51.6 95.7,55.4 93.5,57.6 C90,61 84.5,61 79,58.6 C72,55.6 62,55.6 56,59 Z" fill-rule="evenodd"></path>
+        <linearGradient id="am-beard-moustache-handlebar-0-shade" gradientUnits="userSpaceOnUse" x1="0" y1="51" x2="0" y2="66"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.2"></stop></linearGradient></defs>
+        <mask id="am-beard-moustache-handlebar-0-mask" fill="white"><use fill-rule="evenodd" xlink:href="#am-beard-moustache-handlebar-0"></use></mask>
+        <use fill="#000000" fill-opacity="0.12" fill-rule="evenodd" transform="translate(0,1.4)" xlink:href="#am-beard-moustache-handlebar-0"></use>
+        <g>
+        <use fill="#252E32" fill-rule="evenodd" xlink:href="#am-beard-moustache-handlebar-0"></use>
+        <g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-beard-moustache-handlebar-0-mask)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR"><rect x="-80" y="-80" width="400" height="400"></rect></g>
+        <g mask="url(#am-beard-moustache-handlebar-0-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-moustache-handlebar-0-shade)"></rect><g fill="none" stroke="#000000" stroke-opacity="0.12" stroke-width="1.2" stroke-linecap="round"><path d="M56,59.5 L56,64"></path><path d="M46,60 C40,60.5 34,62 28,62"></path><path d="M66,60 C72,60.5 78,62 84,62"></path></g></g>
+        </g>
+        </g>
         """),
   Chinstrap("""
         <g id="FacialHair/Chinstrap">
-									<defs>
-										<path d="M6,42 C8,74 24,98 56,102 C88,98 104,74 106,42 C100,78 82,88 56,88 C30,88 12,78 6,42 Z" id="am-path-chinstrap"></path>
-									</defs>
-									<mask id="am-mask-chinstrap" fill="white">
-										<use xlink:href="#am-path-chinstrap"></use>
-									</mask>
-									<use id="Chinstrap" fill="#252E32" fill-rule="evenodd" xlink:href="#am-path-chinstrap"></use>
-									<g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-mask-chinstrap)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR">
-										<g transform="translate(0.000000, 0.000000)" id="Color">
-											<rect x="-80" y="-80" width="400" height="400"></rect>
-										</g>
-									</g>
-								<g mask="url(#am-mask-chinstrap)"><ellipse cx="34" cy="62" rx="26" ry="18" transform="rotate(-20 34 62)" fill="#FFFFFF" fill-opacity="0.15"></ellipse><rect x="-80" y="94" width="400" height="120" fill="#000000" fill-opacity="0.14"></rect><g fill="none" stroke="#000000" stroke-opacity="0.13" stroke-width="2.4" stroke-linecap="round"><path d="M28,58 C26,74 28,88 34,98"></path><path d="M48,62 C46,78 47,92 50,102"></path><path d="M66,62 C68,78 67,92 64,102"></path><path d="M86,58 C88,74 86,88 80,98"></path></g></g></g>
+        <defs><path id="am-beard-chinstrap-0" d="M56,98.6 C34,98.6 12,87 6.4,58 C5.4,44 5,28 5,15.5 C3,13.4 0.5,13 -1.5,13.6 L-1.5,48 C-1.5,80 24,105.6 56,105.6 C88,105.6 113.5,80 113.5,48 L113.5,13.6 C111.5,13 109,13.4 107,15.5 C107,28 106.6,44 105.6,58 C100,87 78,98.6 56,98.6 Z" fill-rule="evenodd"></path>
+        <linearGradient id="am-beard-chinstrap-0-shade" gradientUnits="userSpaceOnUse" x1="0" y1="12" x2="0" y2="106"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.2"></stop></linearGradient></defs>
+        <mask id="am-beard-chinstrap-0-mask" fill="white"><use fill-rule="evenodd" xlink:href="#am-beard-chinstrap-0"></use></mask>
+        <use fill="#000000" fill-opacity="0.12" fill-rule="evenodd" transform="translate(0,1.4)" xlink:href="#am-beard-chinstrap-0"></use>
+        <g>
+        <use fill="#252E32" fill-rule="evenodd" xlink:href="#am-beard-chinstrap-0"></use>
+        <g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-beard-chinstrap-0-mask)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR"><rect x="-80" y="-80" width="400" height="400"></rect></g>
+        <g mask="url(#am-beard-chinstrap-0-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-chinstrap-0-shade)"></rect><g fill="none" stroke="#000000" stroke-opacity="0.12" stroke-width="1.2" stroke-linecap="round"><path d="M16,92 C26,99 38,102.4 50,103"></path><path d="M96,92 C86,99 74,102.4 62,103"></path></g></g>
+        </g>
+        </g>
         """),
   Anchor("""
         <g id="FacialHair/Anchor">
-									<defs>
-										<path d="M36,62 C44,58 68,58 76,62 C68,68 44,68 36,62 Z M46,86 C46,83 50,81 56,81 C62,81 66,83 66,86 C66,96 62,102 56,102 C50,102 46,96 46,86 Z M50,72 L62,72 L60,82 L52,82 Z" id="am-path-anchor"></path>
-									</defs>
-									<mask id="am-mask-anchor" fill="white">
-										<use xlink:href="#am-path-anchor"></use>
-									</mask>
-									<use id="Anchor" fill="#252E32" fill-rule="evenodd" xlink:href="#am-path-anchor"></use>
-									<g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-mask-anchor)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR">
-										<g transform="translate(0.000000, 0.000000)" id="Color">
-											<rect x="-80" y="-80" width="400" height="400"></rect>
-										</g>
-									</g>
-								<g mask="url(#am-mask-anchor)"><ellipse cx="34" cy="62" rx="26" ry="18" transform="rotate(-20 34 62)" fill="#FFFFFF" fill-opacity="0.15"></ellipse><rect x="-80" y="94" width="400" height="120" fill="#000000" fill-opacity="0.14"></rect><g fill="none" stroke="#000000" stroke-opacity="0.13" stroke-width="2.4" stroke-linecap="round"><path d="M28,58 C26,74 28,88 34,98"></path><path d="M48,62 C46,78 47,92 50,102"></path><path d="M66,62 C68,78 67,92 64,102"></path><path d="M86,58 C88,74 86,88 80,98"></path></g></g></g>
+        <defs><path id="am-beard-anchor-0" d="M56,88.6 C54.6,87.8 53.4,88 52.6,88.8 C52.4,93 51.6,97 50,100.2 C42,100.6 33,98.6 25.6,93.6 C30.5,103 42,110.5 56,115 C70,110.5 81.5,103 86.4,93.6 C79,98.6 70,100.6 62,100.2 C60.4,97 59.6,93 59.4,88.8 C58.6,88 57.4,87.8 56,88.6 Z" fill-rule="evenodd"></path>
+        <linearGradient id="am-beard-anchor-0-shade" gradientUnits="userSpaceOnUse" x1="0" y1="87" x2="0" y2="115"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.2"></stop></linearGradient></defs>
+        <mask id="am-beard-anchor-0-mask" fill="white"><use fill-rule="evenodd" xlink:href="#am-beard-anchor-0"></use></mask>
+        <use fill="#000000" fill-opacity="0.12" fill-rule="evenodd" transform="translate(0,1.4)" xlink:href="#am-beard-anchor-0"></use>
+        <g>
+        <use fill="#252E32" fill-rule="evenodd" xlink:href="#am-beard-anchor-0"></use>
+        <g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-beard-anchor-0-mask)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR"><rect x="-80" y="-80" width="400" height="400"></rect></g>
+        <g mask="url(#am-beard-anchor-0-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-anchor-0-shade)"></rect><g fill="none" stroke="#000000" stroke-opacity="0.12" stroke-width="1.2" stroke-linecap="round"><path d="M33,100 C38,103.4 44,105.6 50,106.6"></path><path d="M79,100 C74,103.4 68,105.6 62,106.6"></path><path d="M56,91 L56,100"></path></g></g>
+        </g>
+        <defs><path id="am-beard-anchor-1" d="M56,58 C51,55 42,55.3 40,59 C36.5,61.5 34.5,64.5 35,68.5 C41,66.3 44,65.5 50,65.9 C53,66.1 55,66.5 56,66.9 C57,66.5 59,66.1 62,65.9 C68,65.5 71,66.3 77,68.5 C77.5,64.5 75.5,61.5 72,59 C70,55.3 61,55 56,58 Z" fill-rule="evenodd"></path>
+        <linearGradient id="am-beard-anchor-1-shade" gradientUnits="userSpaceOnUse" x1="0" y1="55" x2="0" y2="69"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.2"></stop></linearGradient></defs>
+        <mask id="am-beard-anchor-1-mask" fill="white"><use fill-rule="evenodd" xlink:href="#am-beard-anchor-1"></use></mask>
+        <use fill="#000000" fill-opacity="0.12" fill-rule="evenodd" transform="translate(0,1.4)" xlink:href="#am-beard-anchor-1"></use>
+        <g>
+        <use fill="#252E32" fill-rule="evenodd" xlink:href="#am-beard-anchor-1"></use>
+        <g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-beard-anchor-1-mask)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR"><rect x="-80" y="-80" width="400" height="400"></rect></g>
+        <g mask="url(#am-beard-anchor-1-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-anchor-1-shade)"></rect><g fill="none" stroke="#000000" stroke-opacity="0.12" stroke-width="1.2" stroke-linecap="round"><path d="M56,59.5 L56,64.5"></path></g></g>
+        </g>
+        </g>
         """),
   Walrus("""
         <g id="FacialHair/Walrus">
-									<defs>
-										<path d="M56,58 C46,54 30,54 22,60 C16,64 14,72 18,76 C24,82 40,80 48,74 C52,71 54,68 56,66 C58,68 60,71 64,74 C72,80 88,82 94,76 C98,72 96,64 90,60 C82,54 66,54 56,58 Z" id="am-path-walrus"></path>
-									</defs>
-									<mask id="am-mask-walrus" fill="white">
-										<use xlink:href="#am-path-walrus"></use>
-									</mask>
-									<use id="Walrus" fill="#252E32" fill-rule="evenodd" xlink:href="#am-path-walrus"></use>
-									<g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-mask-walrus)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR">
-										<g transform="translate(0.000000, 0.000000)" id="Color">
-											<rect x="-80" y="-80" width="400" height="400"></rect>
-										</g>
-									</g>
-								<g mask="url(#am-mask-walrus)"><ellipse cx="34" cy="62" rx="26" ry="18" transform="rotate(-20 34 62)" fill="#FFFFFF" fill-opacity="0.15"></ellipse><rect x="-80" y="94" width="400" height="120" fill="#000000" fill-opacity="0.14"></rect><g fill="none" stroke="#000000" stroke-opacity="0.13" stroke-width="2.4" stroke-linecap="round"><path d="M28,58 C26,74 28,88 34,98"></path><path d="M48,62 C46,78 47,92 50,102"></path><path d="M66,62 C68,78 67,92 64,102"></path><path d="M86,58 C88,74 86,88 80,98"></path></g></g></g>
+        <defs><path id="am-beard-walrus-0" d="M56,57 C46,53.6 32,54 26,58.6 C21.5,62 21,67.5 23.6,71.2 Q27,75.6 30.5,72.4 Q34.5,77 38.5,72.8 Q42.6,77.4 46.8,73 Q51.4,77.8 56,73.4 Q60.6,77.8 65.2,73 Q69.4,77.4 73.5,72.8 Q77.5,77 81.5,72.4 Q85,75.6 88.4,71.2 C91,67.5 90.5,62 86,58.6 C80,54 66,53.6 56,57 Z" fill-rule="evenodd"></path>
+        <linearGradient id="am-beard-walrus-0-shade" gradientUnits="userSpaceOnUse" x1="0" y1="54" x2="0" y2="76"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.2"></stop></linearGradient></defs>
+        <mask id="am-beard-walrus-0-mask" fill="white"><use fill-rule="evenodd" xlink:href="#am-beard-walrus-0"></use></mask>
+        <use fill="#000000" fill-opacity="0.12" fill-rule="evenodd" transform="translate(0,1.4)" xlink:href="#am-beard-walrus-0"></use>
+        <g>
+        <use fill="#252E32" fill-rule="evenodd" xlink:href="#am-beard-walrus-0"></use>
+        <g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-beard-walrus-0-mask)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR"><rect x="-80" y="-80" width="400" height="400"></rect></g>
+        <g mask="url(#am-beard-walrus-0-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-walrus-0-shade)"></rect><g fill="none" stroke="#000000" stroke-opacity="0.12" stroke-width="1.2" stroke-linecap="round"><path d="M56,60 L56,70"></path><path d="M48,59 C44,62 40,66 37,71"></path><path d="M64,59 C68,62 72,66 75,71"></path><path d="M38,58.5 C34,61 30,64 27,69"></path><path d="M74,58.5 C78,61 82,64 85,69"></path></g></g>
+        </g>
+        </g>
         """),
   Pencil("""
         <g id="FacialHair/Pencil">
-									<defs>
-										<path d="M40,62 C46,59 66,59 72,62 C66,65 46,65 40,62 Z" id="am-path-pencil"></path>
-									</defs>
-									<mask id="am-mask-pencil" fill="white">
-										<use xlink:href="#am-path-pencil"></use>
-									</mask>
-									<use id="Pencil" fill="#252E32" fill-rule="evenodd" xlink:href="#am-path-pencil"></use>
-									<g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-mask-pencil)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR">
-										<g transform="translate(0.000000, 0.000000)" id="Color">
-											<rect x="-80" y="-80" width="400" height="400"></rect>
-										</g>
-									</g>
-								<g mask="url(#am-mask-pencil)"><ellipse cx="34" cy="62" rx="26" ry="18" transform="rotate(-20 34 62)" fill="#FFFFFF" fill-opacity="0.15"></ellipse><rect x="-80" y="94" width="400" height="120" fill="#000000" fill-opacity="0.14"></rect><g fill="none" stroke="#000000" stroke-opacity="0.13" stroke-width="2.4" stroke-linecap="round"><path d="M28,58 C26,74 28,88 34,98"></path><path d="M48,62 C46,78 47,92 50,102"></path><path d="M66,62 C68,78 67,92 64,102"></path><path d="M86,58 C88,74 86,88 80,98"></path></g></g></g>
+        <defs><path id="am-beard-pencil-0" d="M55.2,58.4 C50,57.4 43,58.2 37.6,61.6 C43.5,60.6 49.5,60.8 55.2,61.4 L55.2,58.4 Z M56.8,58.4 L56.8,61.4 C62.5,60.8 68.5,60.6 74.4,61.6 C69,58.2 62,57.4 56.8,58.4 Z" fill-rule="evenodd"></path>
+        <linearGradient id="am-beard-pencil-0-shade" gradientUnits="userSpaceOnUse" x1="0" y1="57" x2="0" y2="62"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.2"></stop></linearGradient></defs>
+        <mask id="am-beard-pencil-0-mask" fill="white"><use fill-rule="evenodd" xlink:href="#am-beard-pencil-0"></use></mask>
+        <use fill="#000000" fill-opacity="0.1" fill-rule="evenodd" transform="translate(0,1.4)" xlink:href="#am-beard-pencil-0"></use>
+        <g>
+        <use fill="#252E32" fill-rule="evenodd" xlink:href="#am-beard-pencil-0"></use>
+        <g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-beard-pencil-0-mask)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR"><rect x="-80" y="-80" width="400" height="400"></rect></g>
+        <g mask="url(#am-beard-pencil-0-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-pencil-0-shade)"></rect></g>
+        </g>
+        </g>
         """),
   Sideburns("""
         <g id="FacialHair/Sideburns">
-									<defs>
-										<path d="M4,36 C10,36 16,42 17,52 C18,62 19,70 24,78 C16,80 9,74 7,64 C5,54 4,44 4,36 Z M108,36 C102,36 96,42 95,52 C94,62 93,70 88,78 C96,80 103,74 105,64 C107,54 108,44 108,36 Z" id="am-path-sideburns"></path>
-									</defs>
-									<mask id="am-mask-sideburns" fill="white">
-										<use xlink:href="#am-path-sideburns"></use>
-									</mask>
-									<use id="Sideburns" fill="#252E32" fill-rule="evenodd" xlink:href="#am-path-sideburns"></use>
-									<g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-mask-sideburns)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR">
-										<g transform="translate(0.000000, 0.000000)" id="Color">
-											<rect x="-80" y="-80" width="400" height="400"></rect>
-										</g>
-									</g>
-								<g mask="url(#am-mask-sideburns)"><ellipse cx="34" cy="62" rx="26" ry="18" transform="rotate(-20 34 62)" fill="#FFFFFF" fill-opacity="0.15"></ellipse><rect x="-80" y="94" width="400" height="120" fill="#000000" fill-opacity="0.14"></rect><g fill="none" stroke="#000000" stroke-opacity="0.13" stroke-width="2.4" stroke-linecap="round"><path d="M28,58 C26,74 28,88 34,98"></path><path d="M48,62 C46,78 47,92 50,102"></path><path d="M66,62 C68,78 67,92 64,102"></path><path d="M86,58 C88,74 86,88 80,98"></path></g></g></g>
+        <defs><path id="am-beard-sideburns-0" d="M-1.5,13 C2,12 6,12.4 8.6,14.4 C9,26 9.4,38 9,48 C8.8,51 7.6,53 5,54.6 L0.4,57.2 C-0.6,50 -1.5,32 -1.5,13 Z M113.5,13 C113.5,32 112.6,50 111.6,57.2 L107,54.6 C104.4,53 103.2,51 103,48 C102.6,38 103,26 103.4,14.4 C106,12.4 110,12 113.5,13 Z" fill-rule="evenodd"></path>
+        <linearGradient id="am-beard-sideburns-0-shade" gradientUnits="userSpaceOnUse" x1="0" y1="12" x2="0" y2="58"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.2"></stop></linearGradient></defs>
+        <mask id="am-beard-sideburns-0-mask" fill="white"><use fill-rule="evenodd" xlink:href="#am-beard-sideburns-0"></use></mask>
+        <use fill="#000000" fill-opacity="0.12" fill-rule="evenodd" transform="translate(0,1.4)" xlink:href="#am-beard-sideburns-0"></use>
+        <g>
+        <use fill="#252E32" fill-rule="evenodd" xlink:href="#am-beard-sideburns-0"></use>
+        <g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-beard-sideburns-0-mask)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR"><rect x="-80" y="-80" width="400" height="400"></rect></g>
+        <g mask="url(#am-beard-sideburns-0-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-sideburns-0-shade)"></rect></g>
+        </g>
+        </g>
         """),
   Balbo("""
         <g id="FacialHair/Balbo">
-									<defs>
-										<path d="M36,62 C44,58 68,58 76,62 C68,68 44,68 36,62 Z M38,84 C38,80 46,78 56,78 C66,78 74,80 74,84 C74,96 66,104 56,104 C46,104 38,96 38,84 Z" id="am-path-balbo"></path>
-									</defs>
-									<mask id="am-mask-balbo" fill="white">
-										<use xlink:href="#am-path-balbo"></use>
-									</mask>
-									<use id="Balbo" fill="#252E32" fill-rule="evenodd" xlink:href="#am-path-balbo"></use>
-									<g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-mask-balbo)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR">
-										<g transform="translate(0.000000, 0.000000)" id="Color">
-											<rect x="-80" y="-80" width="400" height="400"></rect>
-										</g>
-									</g>
-								<g mask="url(#am-mask-balbo)"><ellipse cx="34" cy="62" rx="26" ry="18" transform="rotate(-20 34 62)" fill="#FFFFFF" fill-opacity="0.15"></ellipse><rect x="-80" y="94" width="400" height="120" fill="#000000" fill-opacity="0.14"></rect><g fill="none" stroke="#000000" stroke-opacity="0.13" stroke-width="2.4" stroke-linecap="round"><path d="M28,58 C26,74 28,88 34,98"></path><path d="M48,62 C46,78 47,92 50,102"></path><path d="M66,62 C68,78 67,92 64,102"></path><path d="M86,58 C88,74 86,88 80,98"></path></g></g></g>
+        <defs><path id="am-beard-balbo-0" d="M56,88.2 C54.5,87.4 53,87.4 51.5,88 L50.8,91 C44,92.4 36,91.4 29.4,87.4 C30,99 40,108.5 56,109.5 C72,108.5 82,99 82.6,87.4 C76,91.4 68,92.4 61.2,91 L60.5,88 C59,87.4 57.5,87.4 56,88.2 Z" fill-rule="evenodd"></path>
+        <linearGradient id="am-beard-balbo-0-shade" gradientUnits="userSpaceOnUse" x1="0" y1="86" x2="0" y2="110"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.2"></stop></linearGradient></defs>
+        <mask id="am-beard-balbo-0-mask" fill="white"><use fill-rule="evenodd" xlink:href="#am-beard-balbo-0"></use></mask>
+        <use fill="#000000" fill-opacity="0.12" fill-rule="evenodd" transform="translate(0,1.4)" xlink:href="#am-beard-balbo-0"></use>
+        <g>
+        <use fill="#252E32" fill-rule="evenodd" xlink:href="#am-beard-balbo-0"></use>
+        <g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-beard-balbo-0-mask)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR"><rect x="-80" y="-80" width="400" height="400"></rect></g>
+        <g mask="url(#am-beard-balbo-0-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-balbo-0-shade)"></rect><g fill="none" stroke="#000000" stroke-opacity="0.12" stroke-width="1.2" stroke-linecap="round"><path d="M38,96 C42,101 47,104 52,105"></path><path d="M74,96 C70,101 65,104 60,105"></path></g></g>
+        </g>
+        <defs><path id="am-beard-balbo-1" d="M56,58 C51,55 42,55.3 37,59 C33.5,61.5 31.5,63.5 32,67.5 C38,65.3 44,65.5 50,65.9 C53,66.1 55,66.5 56,66.9 C57,66.5 59,66.1 62,65.9 C68,65.5 74,65.3 80,67.5 C80.5,63.5 78.5,61.5 75,59 C70,55.3 61,55 56,58 Z" fill-rule="evenodd"></path>
+        <linearGradient id="am-beard-balbo-1-shade" gradientUnits="userSpaceOnUse" x1="0" y1="55" x2="0" y2="69"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.2"></stop></linearGradient></defs>
+        <mask id="am-beard-balbo-1-mask" fill="white"><use fill-rule="evenodd" xlink:href="#am-beard-balbo-1"></use></mask>
+        <use fill="#000000" fill-opacity="0.12" fill-rule="evenodd" transform="translate(0,1.4)" xlink:href="#am-beard-balbo-1"></use>
+        <g>
+        <use fill="#252E32" fill-rule="evenodd" xlink:href="#am-beard-balbo-1"></use>
+        <g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-beard-balbo-1-mask)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR"><rect x="-80" y="-80" width="400" height="400"></rect></g>
+        <g mask="url(#am-beard-balbo-1-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-balbo-1-shade)"></rect><g fill="none" stroke="#000000" stroke-opacity="0.12" stroke-width="1.2" stroke-linecap="round"><path d="M56,59.5 L56,64.5"></path><path d="M44,59 C40,60.5 36,63 34,65"></path><path d="M68,59 C72,60.5 76,63 78,65"></path></g></g>
+        </g>
+        </g>
         """),
   Ducktail("""
         <g id="FacialHair/Ducktail">
-									<defs>
-										<path d="M8,48 C12,78 26,96 56,110 C86,96 100,78 104,48 C98,82 80,94 56,94 C32,94 14,82 8,48 Z" id="am-path-ducktail"></path>
-									</defs>
-									<mask id="am-mask-ducktail" fill="white">
-										<use xlink:href="#am-path-ducktail"></use>
-									</mask>
-									<use id="Ducktail" fill="#252E32" fill-rule="evenodd" xlink:href="#am-path-ducktail"></use>
-									<g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-mask-ducktail)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR">
-										<g transform="translate(0.000000, 0.000000)" id="Color">
-											<rect x="-80" y="-80" width="400" height="400"></rect>
-										</g>
-									</g>
-								<g mask="url(#am-mask-ducktail)"><ellipse cx="34" cy="62" rx="26" ry="18" transform="rotate(-20 34 62)" fill="#FFFFFF" fill-opacity="0.15"></ellipse><rect x="-80" y="94" width="400" height="120" fill="#000000" fill-opacity="0.14"></rect><g fill="none" stroke="#000000" stroke-opacity="0.13" stroke-width="2.4" stroke-linecap="round"><path d="M28,58 C26,74 28,88 34,98"></path><path d="M48,62 C46,78 47,92 50,102"></path><path d="M66,62 C68,78 67,92 64,102"></path><path d="M86,58 C88,74 86,88 80,98"></path></g></g></g>
+        <defs><path id="am-beard-ducktail-0" d="M56,58.2 C52,57 46,56.5 38,58.5 C31,60.5 25,60 20,55 C13.5,46 10.5,30 9,15.5 C5.15,12.4 1.35,11.8 -1.5,13 L-1.5,48 C-1.5,74 16,98 36,110 C44,115 51,119 56,125 C61,119 68,115 76,110 C96,98 113.5,74 113.5,48 L113.5,13 C110.65,11.8 106.85,12.4 103,15.5 C101.5,30 98.5,46 92,55 C87,60 81,60.5 74,58.5 C66,56.5 60,57 56,58.2 Z M34,66 C34,61 78,61 78,66 C78,76 68,89 56,89 C44,89 34,76 34,66 Z" fill-rule="evenodd"></path>
+        <linearGradient id="am-beard-ducktail-0-shade" gradientUnits="userSpaceOnUse" x1="0" y1="13" x2="0" y2="125"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.2"></stop></linearGradient></defs>
+        <mask id="am-beard-ducktail-0-mask" fill="white"><use fill-rule="evenodd" xlink:href="#am-beard-ducktail-0"></use></mask>
+        <use fill="#000000" fill-opacity="0.12" fill-rule="evenodd" transform="translate(0,1.4)" xlink:href="#am-beard-ducktail-0"></use>
+        <g>
+        <use fill="#252E32" fill-rule="evenodd" xlink:href="#am-beard-ducktail-0"></use>
+        <g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-beard-ducktail-0-mask)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR"><rect x="-80" y="-80" width="400" height="400"></rect></g>
+        <g mask="url(#am-beard-ducktail-0-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-ducktail-0-shade)"></rect><g fill="none" stroke="#000000" stroke-opacity="0.12" stroke-width="1.2" stroke-linecap="round"><path d="M8,40 C8,62 16,82 30,96"></path><path d="M104,40 C104,62 96,82 82,96"></path><path d="M44,96 C46,104 50,112 54,118"></path><path d="M68,96 C66,104 62,112 58,118"></path></g></g>
+        </g>
+        <defs><path id="am-beard-ducktail-1" d="M56,58 C51,55 42,55.3 35,59 C31.5,61.5 29.5,65.5 30,69.5 C36,67.3 44,65.5 50,65.9 C53,66.1 55,66.5 56,66.9 C57,66.5 59,66.1 62,65.9 C68,65.5 76,67.3 82,69.5 C82.5,65.5 80.5,61.5 77,59 C70,55.3 61,55 56,58 Z" fill-rule="evenodd"></path>
+        <linearGradient id="am-beard-ducktail-1-shade" gradientUnits="userSpaceOnUse" x1="0" y1="55" x2="0" y2="70"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.2"></stop></linearGradient></defs>
+        <mask id="am-beard-ducktail-1-mask" fill="white"><use fill-rule="evenodd" xlink:href="#am-beard-ducktail-1"></use></mask>
+        <use fill="#000000" fill-opacity="0.12" fill-rule="evenodd" transform="translate(0,1.4)" xlink:href="#am-beard-ducktail-1"></use>
+        <g>
+        <use fill="#252E32" fill-rule="evenodd" xlink:href="#am-beard-ducktail-1"></use>
+        <g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-beard-ducktail-1-mask)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR"><rect x="-80" y="-80" width="400" height="400"></rect></g>
+        <g mask="url(#am-beard-ducktail-1-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-ducktail-1-shade)"></rect><g fill="none" stroke="#000000" stroke-opacity="0.12" stroke-width="1.2" stroke-linecap="round"><path d="M56,59.5 L56,64.5"></path></g></g>
+        </g>
+        </g>
         """),
   Horseshoe("""
         <g id="FacialHair/Horseshoe">
-									<defs>
-										<path d="M36,60 C44,56 68,56 76,60 C68,66 44,66 36,60 Z M36,60 L46,60 L46,96 L36,96 Z M66,60 L76,60 L76,96 L66,96 Z" id="am-path-horseshoe"></path>
-									</defs>
-									<mask id="am-mask-horseshoe" fill="white">
-										<use xlink:href="#am-path-horseshoe"></use>
-									</mask>
-									<use id="Horseshoe" fill="#252E32" fill-rule="evenodd" xlink:href="#am-path-horseshoe"></use>
-									<g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-mask-horseshoe)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR">
-										<g transform="translate(0.000000, 0.000000)" id="Color">
-											<rect x="-80" y="-80" width="400" height="400"></rect>
-										</g>
-									</g>
-								<g mask="url(#am-mask-horseshoe)"><ellipse cx="34" cy="62" rx="26" ry="18" transform="rotate(-20 34 62)" fill="#FFFFFF" fill-opacity="0.15"></ellipse><rect x="-80" y="94" width="400" height="120" fill="#000000" fill-opacity="0.14"></rect><g fill="none" stroke="#000000" stroke-opacity="0.13" stroke-width="2.4" stroke-linecap="round"><path d="M28,58 C26,74 28,88 34,98"></path><path d="M48,62 C46,78 47,92 50,102"></path><path d="M66,62 C68,78 67,92 64,102"></path><path d="M86,58 C88,74 86,88 80,98"></path></g></g></g>
+        <defs><path id="am-beard-horseshoe-0" d="M56,57.4 C46,55 37.5,55.8 33.8,59.4 C31.6,61.6 31.2,66 31.4,72 C31.6,82 32.6,92 34.4,99.4 C35,101.8 39.2,101.8 39.6,99.2 C39.2,90 38.8,80 38.8,71 C38.8,67 41,65.4 45,65.2 C49,65 53,65 56,65.6 C59,65 63,65 67,65.2 C71,65.4 73.2,67 73.2,71 C73.2,80 72.8,90 72.4,99.2 C72.8,101.8 77,101.8 77.6,99.4 C79.4,92 80.4,82 80.6,72 C80.8,66 80.4,61.6 78.2,59.4 C74.5,55.8 66,55 56,57.4 Z" fill-rule="evenodd"></path>
+        <linearGradient id="am-beard-horseshoe-0-shade" gradientUnits="userSpaceOnUse" x1="0" y1="55" x2="0" y2="102"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.2"></stop></linearGradient></defs>
+        <mask id="am-beard-horseshoe-0-mask" fill="white"><use fill-rule="evenodd" xlink:href="#am-beard-horseshoe-0"></use></mask>
+        <use fill="#000000" fill-opacity="0.12" fill-rule="evenodd" transform="translate(0,1.4)" xlink:href="#am-beard-horseshoe-0"></use>
+        <g>
+        <use fill="#252E32" fill-rule="evenodd" xlink:href="#am-beard-horseshoe-0"></use>
+        <g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-beard-horseshoe-0-mask)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR"><rect x="-80" y="-80" width="400" height="400"></rect></g>
+        <g mask="url(#am-beard-horseshoe-0-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-horseshoe-0-shade)"></rect><g fill="none" stroke="#000000" stroke-opacity="0.12" stroke-width="1.2" stroke-linecap="round"><path d="M56,59.5 L56,64"></path><path d="M35,68 C35,78 35.5,88 36.6,96"></path><path d="M77,68 C77,78 76.5,88 75.4,96"></path></g></g>
+        </g>
+        </g>
         """),
   Scruff("""
         <g id="FacialHair/Scruff">
-									<defs>
-										<path d="M10,50 C14,82 28,98 56,102 C84,98 98,82 102,50 C96,84 78,90 56,90 C34,90 16,84 10,50 Z M36,58 C46,53 66,53 76,58 C66,67 46,67 36,58 Z" id="am-path-scruff"></path>
-									</defs>
-									<mask id="am-mask-scruff" fill="white">
-										<use xlink:href="#am-path-scruff"></use>
-									</mask>
-									<use id="Scruff" fill="#252E32" fill-rule="evenodd" xlink:href="#am-path-scruff"></use>
-									<g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-mask-scruff)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR">
-										<g transform="translate(0.000000, 0.000000)" id="Color">
-											<rect x="-80" y="-80" width="400" height="400"></rect>
-										</g>
-									</g>
-								<g mask="url(#am-mask-scruff)"><ellipse cx="34" cy="62" rx="26" ry="18" transform="rotate(-20 34 62)" fill="#FFFFFF" fill-opacity="0.15"></ellipse><rect x="-80" y="94" width="400" height="120" fill="#000000" fill-opacity="0.14"></rect><g fill="none" stroke="#000000" stroke-opacity="0.13" stroke-width="2.4" stroke-linecap="round"><path d="M28,58 C26,74 28,88 34,98"></path><path d="M48,62 C46,78 47,92 50,102"></path><path d="M66,62 C68,78 67,92 64,102"></path><path d="M86,58 C88,74 86,88 80,98"></path></g></g></g>
+        <defs><path id="am-beard-scruff-0" d="M56,59.6 C52,58.4 46,58 37,60.6 C30,63 23,63.5 18,58 C10.5,48 8.5,30 7.5,15.5 C4.1,12.4 0.9,11.8 -1.5,13 L-1.5,48 C-1.5,66 6,84 14,92 L17,92.6 L18.6,96.4 L22.2,96.4 L24.4,100.4 L28.4,100 L31,103.6 L35.4,102.8 L38.6,106.2 L43,105 L46.4,108.2 L50.6,106.6 L53.6,109.4 L56,107.6 L58.4,109.4 L61.4,106.6 L65.6,108.2 L69,105 L73.4,106.2 L76.6,102.8 L81,103.6 L83.6,100 L87.6,100.4 L89.8,96.4 L93.4,96.4 L95,92.6 L98,92 C106,84 113.5,66 113.5,48 L113.5,13 C111.1,11.8 107.9,12.4 104.5,15.5 C103.5,30 101.5,48 94,58 C89,63.5 82,63 75,60.6 C66,58 60,58.4 56,59.6 Z M34,67 C34,62 78,62 78,67 C78,75 68,88 56,88 C44,88 34,75 34,67 Z" fill-rule="evenodd"></path>
+        <linearGradient id="am-beard-scruff-0-shade" gradientUnits="userSpaceOnUse" x1="0" y1="13" x2="0" y2="109"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.2"></stop></linearGradient></defs>
+        <mask id="am-beard-scruff-0-mask" fill="white"><use fill-rule="evenodd" xlink:href="#am-beard-scruff-0"></use></mask>
+        <use fill="#000000" fill-opacity="0.12" fill-rule="evenodd" transform="translate(0,1.4)" xlink:href="#am-beard-scruff-0"></use>
+        <g>
+        <use fill="#252E32" fill-rule="evenodd" xlink:href="#am-beard-scruff-0"></use>
+        <g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-beard-scruff-0-mask)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR"><rect x="-80" y="-80" width="400" height="400"></rect></g>
+        <g mask="url(#am-beard-scruff-0-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-scruff-0-shade)"></rect><g fill="none" stroke="#000000" stroke-opacity="0.12" stroke-width="1.2" stroke-linecap="round"><path d="M8,34 L9,44"></path><path d="M12,56 L14,62"></path><path d="M22,74 L24,80"></path><path d="M32,92 L34,96"></path><path d="M80,92 L78,96"></path><path d="M90,74 L88,80"></path><path d="M100,56 L98,62"></path><path d="M104,34 L103,44"></path><path d="M48,94 L49,100"></path><path d="M64,94 L63,100"></path></g></g>
+        </g>
+        </g>
         """),
   Toothbrush("""
         <g id="FacialHair/Toothbrush">
-									<defs>
-										<path d="M48,58 L64,58 L64,68 L48,68 Z" id="am-path-toothbrush"></path>
-									</defs>
-									<mask id="am-mask-toothbrush" fill="white">
-										<use xlink:href="#am-path-toothbrush"></use>
-									</mask>
-									<use id="Toothbrush" fill="#252E32" fill-rule="evenodd" xlink:href="#am-path-toothbrush"></use>
-									<g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-mask-toothbrush)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR">
-										<g transform="translate(0.000000, 0.000000)" id="Color">
-											<rect x="-80" y="-80" width="400" height="400"></rect>
-										</g>
-									</g>
-								<g mask="url(#am-mask-toothbrush)"><ellipse cx="34" cy="62" rx="26" ry="18" transform="rotate(-20 34 62)" fill="#FFFFFF" fill-opacity="0.15"></ellipse><rect x="-80" y="94" width="400" height="120" fill="#000000" fill-opacity="0.14"></rect><g fill="none" stroke="#000000" stroke-opacity="0.13" stroke-width="2.4" stroke-linecap="round"><path d="M28,58 C26,74 28,88 34,98"></path><path d="M48,62 C46,78 47,92 50,102"></path><path d="M66,62 C68,78 67,92 64,102"></path><path d="M86,58 C88,74 86,88 80,98"></path></g></g></g>
+        <defs><path id="am-beard-toothbrush-0" d="M56,56.4 C53,56 50,56.1 48.2,56.8 C46.8,58.4 46.2,60.8 46,63 Q47.6,62 48.8,63.2 Q50.2,62.2 51.4,63.4 Q52.8,62.4 54,63.6 Q55,62.7 56,63.4 Q57,62.7 58,63.6 Q59.2,62.4 60.6,63.4 Q61.8,62.2 63.2,63.2 Q64.4,62 66,63 C65.8,60.8 65.2,58.4 63.8,56.8 C62,56.1 59,56 56,56.4 Z" fill-rule="evenodd"></path>
+        <linearGradient id="am-beard-toothbrush-0-shade" gradientUnits="userSpaceOnUse" x1="0" y1="56" x2="0" y2="64"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.2"></stop></linearGradient></defs>
+        <mask id="am-beard-toothbrush-0-mask" fill="white"><use fill-rule="evenodd" xlink:href="#am-beard-toothbrush-0"></use></mask>
+        <use fill="#000000" fill-opacity="0.12" fill-rule="evenodd" transform="translate(0,1.4)" xlink:href="#am-beard-toothbrush-0"></use>
+        <g>
+        <use fill="#252E32" fill-rule="evenodd" xlink:href="#am-beard-toothbrush-0"></use>
+        <g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-beard-toothbrush-0-mask)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR"><rect x="-80" y="-80" width="400" height="400"></rect></g>
+        <g mask="url(#am-beard-toothbrush-0-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-toothbrush-0-shade)"></rect><g fill="none" stroke="#000000" stroke-opacity="0.12" stroke-width="1.2" stroke-linecap="round"><path d="M51,58.6 L50.7,62"></path><path d="M61,58.6 L61.3,62"></path></g></g>
+        </g>
+        </g>
+        """),
+  Stubble("""
+        <g id="FacialHair/Stubble">
+        <defs><path id="am-beard-stubble-0" d="M56,58.4 C52,57.2 46,56.8 38,58.8 C31,61 24,61.5 19,56 C11,46 8.5,30 9.3,15.5 C6.05,12.4 3.05,11.8 0.8,13 L0.8,48 C0.8,78 25,103.4 56,103.4 C87,103.4 111.2,78 111.2,48 L111.2,13 C108.95,11.8 105.95,12.4 102.7,15.5 C103.5,30 101,46 93,56 C88,61.5 81,61 74,58.8 C66,56.8 60,57.2 56,58.4 Z M37,68.5 C37,63.5 75,63.5 75,68.5 C75,72 68,85 56,85 C44,85 37,72 37,68.5 Z" fill-rule="evenodd"></path>
+        <linearGradient id="am-beard-stubble-0-shade" gradientUnits="userSpaceOnUse" x1="0" y1="13" x2="0" y2="106"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.2"></stop></linearGradient></defs>
+        <mask id="am-beard-stubble-0-mask" fill="white"><use fill-rule="evenodd" xlink:href="#am-beard-stubble-0"></use></mask>
+        <use fill="#000000" fill-opacity="0.07" fill-rule="evenodd" xlink:href="#am-beard-stubble-0"></use>
+        <g opacity="0.45">
+        <use fill="#252E32" fill-rule="evenodd" xlink:href="#am-beard-stubble-0"></use>
+        <g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-beard-stubble-0-mask)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR"><rect x="-80" y="-80" width="400" height="400"></rect></g>
+        <g mask="url(#am-beard-stubble-0-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-stubble-0-shade)"></rect></g>
+        </g>
+        </g>
+        """),
+  VikingBeard("""
+        <g id="FacialHair/VikingBeard">
+        <defs><path id="am-beard-viking-beard-0" d="M56,58.2 C52,57 46,56.5 38,58.5 C31,60.5 25,60 20,55 C14.5,46 11.5,30 9,15.5 C4.85,12.4 0.65,11.8 -2.5,13 L-2.5,48 C-3,84 10,116 24,132 Q31,139 38.5,133.6 Q46.5,141 56,135 Q65.5,141 73.5,133.6 Q81,139 88,132 C102,116 115,84 114.5,48 L114.5,13 C111.35,11.8 107.15,12.4 103,15.5 C100.5,30 97.5,46 92,55 C87,60 81,60.5 74,58.5 C66,56.5 60,57 56,58.2 Z M34,66 C34,61 78,61 78,66 C78,76 68,89 56,89 C44,89 34,76 34,66 Z" fill-rule="evenodd"></path>
+        <linearGradient id="am-beard-viking-beard-0-shade" gradientUnits="userSpaceOnUse" x1="0" y1="13" x2="0" y2="139"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.2"></stop></linearGradient></defs>
+        <mask id="am-beard-viking-beard-0-mask" fill="white"><use fill-rule="evenodd" xlink:href="#am-beard-viking-beard-0"></use></mask>
+        <use fill="#000000" fill-opacity="0.12" fill-rule="evenodd" transform="translate(0,1.4)" xlink:href="#am-beard-viking-beard-0"></use>
+        <g>
+        <use fill="#252E32" fill-rule="evenodd" xlink:href="#am-beard-viking-beard-0"></use>
+        <g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-beard-viking-beard-0-mask)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR"><rect x="-80" y="-80" width="400" height="400"></rect></g>
+        <g mask="url(#am-beard-viking-beard-0-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-viking-beard-0-shade)"></rect><g fill="none" stroke="#000000" stroke-opacity="0.12" stroke-width="1.2" stroke-linecap="round"><path d="M10,50 C12,78 18,104 26,122"></path><path d="M102,50 C100,78 94,104 86,122"></path><path d="M42,96 C42,108 44,118 46,128"></path><path d="M70,96 C70,108 68,118 66,128"></path><path d="M56,98 L56,126"></path><path d="M28,84 C30,98 34,110 38,120"></path><path d="M84,84 C82,98 78,110 74,120"></path></g></g>
+        </g>
+        <defs><path id="am-beard-viking-beard-1" d="M56,57 C46,54 34,55 29,60 C25,64 24.6,70 25.6,76 C31,71 40,67.2 48,67 C52,67 54.5,67.4 56,68 C57.5,67.4 60,67 64,67 C72,67.2 81,71 86.4,76 C87.4,70 87,64 83,60 C78,55 66,54 56,57 Z" fill-rule="evenodd"></path>
+        <linearGradient id="am-beard-viking-beard-1-shade" gradientUnits="userSpaceOnUse" x1="0" y1="55" x2="0" y2="76"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.2"></stop></linearGradient></defs>
+        <mask id="am-beard-viking-beard-1-mask" fill="white"><use fill-rule="evenodd" xlink:href="#am-beard-viking-beard-1"></use></mask>
+        <use fill="#000000" fill-opacity="0.12" fill-rule="evenodd" transform="translate(0,1.4)" xlink:href="#am-beard-viking-beard-1"></use>
+        <g>
+        <use fill="#252E32" fill-rule="evenodd" xlink:href="#am-beard-viking-beard-1"></use>
+        <g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-beard-viking-beard-1-mask)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR"><rect x="-80" y="-80" width="400" height="400"></rect></g>
+        <g mask="url(#am-beard-viking-beard-1-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-viking-beard-1-shade)"></rect><g fill="none" stroke="#000000" stroke-opacity="0.12" stroke-width="1.2" stroke-linecap="round"><path d="M56,59.5 L56,65"></path><path d="M40,60 C35,63 31,67 28.6,72"></path><path d="M72,60 C77,63 81,67 83.4,72"></path></g></g>
+        </g>
+        </g>
+        """),
+  VanDyke("""
+        <g id="FacialHair/VanDyke">
+        <defs><path id="am-beard-van-dyke-0" d="M56,89.4 C53,87.6 49,87 45.6,88.2 C44.4,96 48,105 56,117 C64,105 67.6,96 66.4,88.2 C63,87 59,87.6 56,89.4 Z" fill-rule="evenodd"></path>
+        <linearGradient id="am-beard-van-dyke-0-shade" gradientUnits="userSpaceOnUse" x1="0" y1="87" x2="0" y2="117"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.2"></stop></linearGradient></defs>
+        <mask id="am-beard-van-dyke-0-mask" fill="white"><use fill-rule="evenodd" xlink:href="#am-beard-van-dyke-0"></use></mask>
+        <use fill="#000000" fill-opacity="0.12" fill-rule="evenodd" transform="translate(0,1.4)" xlink:href="#am-beard-van-dyke-0"></use>
+        <g>
+        <use fill="#252E32" fill-rule="evenodd" xlink:href="#am-beard-van-dyke-0"></use>
+        <g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-beard-van-dyke-0-mask)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR"><rect x="-80" y="-80" width="400" height="400"></rect></g>
+        <g mask="url(#am-beard-van-dyke-0-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-van-dyke-0-shade)"></rect><g fill="none" stroke="#000000" stroke-opacity="0.12" stroke-width="1.2" stroke-linecap="round"><path d="M56,92 L56,110"></path><path d="M51,93 C51,99 52.5,104 54.5,109"></path><path d="M61,93 C61,99 59.5,104 57.5,109"></path></g></g>
+        </g>
+        <defs><path id="am-beard-van-dyke-1" d="M56,59 C50,56 42,56.4 37,59.6 C33.6,61.8 29.6,61.6 27,58.8 C26.6,63.4 30.6,66.8 37,66.4 C44,66 50.5,64.6 56,65.6 C61.5,64.6 68,66 75,66.4 C81.4,66.8 85.4,63.4 85,58.8 C82.4,61.6 78.4,61.8 75,59.6 C70,56.4 62,56 56,59 Z" fill-rule="evenodd"></path>
+        <linearGradient id="am-beard-van-dyke-1-shade" gradientUnits="userSpaceOnUse" x1="0" y1="55" x2="0" y2="67"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.2"></stop></linearGradient></defs>
+        <mask id="am-beard-van-dyke-1-mask" fill="white"><use fill-rule="evenodd" xlink:href="#am-beard-van-dyke-1"></use></mask>
+        <use fill="#000000" fill-opacity="0.12" fill-rule="evenodd" transform="translate(0,1.4)" xlink:href="#am-beard-van-dyke-1"></use>
+        <g>
+        <use fill="#252E32" fill-rule="evenodd" xlink:href="#am-beard-van-dyke-1"></use>
+        <g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-beard-van-dyke-1-mask)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR"><rect x="-80" y="-80" width="400" height="400"></rect></g>
+        <g mask="url(#am-beard-van-dyke-1-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-van-dyke-1-shade)"></rect><g fill="none" stroke="#000000" stroke-opacity="0.12" stroke-width="1.2" stroke-linecap="round"><path d="M56,59.5 L56,64.5"></path></g></g>
+        </g>
+        </g>
+        """),
+  Imperial("""
+        <g id="FacialHair/Imperial">
+        <defs><path id="am-beard-imperial-0" d="M56,58.6 C49,55.4 40,55.8 33,58.4 C26,61 19,56 14.6,46.4 C16.4,56.4 20.4,63.6 27,66.6 C36,70 48,65.6 56,66.6 C64,65.6 76,70 85,66.6 C91.6,63.6 95.6,56.4 97.4,46.4 C93,56 86,61 79,58.4 C72,55.8 63,55.4 56,58.6 Z" fill-rule="evenodd"></path>
+        <linearGradient id="am-beard-imperial-0-shade" gradientUnits="userSpaceOnUse" x1="0" y1="46" x2="0" y2="68"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.2"></stop></linearGradient></defs>
+        <mask id="am-beard-imperial-0-mask" fill="white"><use fill-rule="evenodd" xlink:href="#am-beard-imperial-0"></use></mask>
+        <use fill="#000000" fill-opacity="0.12" fill-rule="evenodd" transform="translate(0,1.4)" xlink:href="#am-beard-imperial-0"></use>
+        <g>
+        <use fill="#252E32" fill-rule="evenodd" xlink:href="#am-beard-imperial-0"></use>
+        <g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-beard-imperial-0-mask)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR"><rect x="-80" y="-80" width="400" height="400"></rect></g>
+        <g mask="url(#am-beard-imperial-0-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-imperial-0-shade)"></rect><g fill="none" stroke="#000000" stroke-opacity="0.12" stroke-width="1.2" stroke-linecap="round"><path d="M56,59.5 L56,65"></path><path d="M44,59.6 C37,61 30,62 24,58"></path><path d="M68,59.6 C75,61 82,62 88,58"></path></g></g>
+        </g>
+        <defs><path id="am-beard-imperial-1" d="M56,88.6 C54.6,87.6 53,87.4 51.8,88 C51.6,94 53,100 56,105 C59,100 60.4,94 60.2,88 C59,87.4 57.4,87.6 56,88.6 Z" fill-rule="evenodd"></path>
+        <linearGradient id="am-beard-imperial-1-shade" gradientUnits="userSpaceOnUse" x1="0" y1="87" x2="0" y2="105"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.2"></stop></linearGradient></defs>
+        <mask id="am-beard-imperial-1-mask" fill="white"><use fill-rule="evenodd" xlink:href="#am-beard-imperial-1"></use></mask>
+        <use fill="#000000" fill-opacity="0.12" fill-rule="evenodd" transform="translate(0,1.4)" xlink:href="#am-beard-imperial-1"></use>
+        <g>
+        <use fill="#252E32" fill-rule="evenodd" xlink:href="#am-beard-imperial-1"></use>
+        <g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-beard-imperial-1-mask)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR"><rect x="-80" y="-80" width="400" height="400"></rect></g>
+        <g mask="url(#am-beard-imperial-1-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-imperial-1-shade)"></rect><g fill="none" stroke="#000000" stroke-opacity="0.12" stroke-width="1.2" stroke-linecap="round"><path d="M56,91 L56,100"></path></g></g>
+        </g>
+        </g>
+        """),
+  FuManchu("""
+        <g id="FacialHair/FuManchu">
+        <defs><path id="am-beard-fu-manchu-0" d="M56,58.8 C50,56.6 42,57 37.4,59.8 C34.4,61.8 33.4,65 33.4,70 L33.6,100 C33.8,107 34.4,113 35.6,120 C36.8,113 37.4,107 37.4,100 L37.4,71 C37.4,66.6 39.6,64.2 43.6,63.4 C48,62.6 52.6,62.8 56,63.6 C59.4,62.8 64,62.6 68.4,63.4 C72.4,64.2 74.6,66.6 74.6,71 L74.6,100 C74.6,107 75.2,113 76.4,120 C77.6,113 78.2,107 78.4,100 L78.6,70 C78.6,65 77.6,61.8 74.6,59.8 C70,57 62,56.6 56,58.8 Z" fill-rule="evenodd"></path>
+        <linearGradient id="am-beard-fu-manchu-0-shade" gradientUnits="userSpaceOnUse" x1="0" y1="57" x2="0" y2="120"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.2"></stop></linearGradient></defs>
+        <mask id="am-beard-fu-manchu-0-mask" fill="white"><use fill-rule="evenodd" xlink:href="#am-beard-fu-manchu-0"></use></mask>
+        <use fill="#000000" fill-opacity="0.12" fill-rule="evenodd" transform="translate(0,1.4)" xlink:href="#am-beard-fu-manchu-0"></use>
+        <g>
+        <use fill="#252E32" fill-rule="evenodd" xlink:href="#am-beard-fu-manchu-0"></use>
+        <g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-beard-fu-manchu-0-mask)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR"><rect x="-80" y="-80" width="400" height="400"></rect></g>
+        <g mask="url(#am-beard-fu-manchu-0-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-fu-manchu-0-shade)"></rect><g fill="none" stroke="#000000" stroke-opacity="0.12" stroke-width="1.2" stroke-linecap="round"><path d="M56,59.5 L56,62.5"></path><path d="M35.4,74 L35.5,108"></path><path d="M76.6,74 L76.5,108"></path></g></g>
+        </g>
+        </g>
+        """),
+  Garibaldi("""
+        <g id="FacialHair/Garibaldi">
+        <defs><path id="am-beard-garibaldi-0" d="M56,58.2 C52,57 46,56.5 38,58.5 C31,60.5 25,60 20,55 C15.5,46 12.5,30 8.5,15.5 C4.05,12.4 -0.55,11.8 -4,13 L-4,48 C-6,100 20,129 56,129 C92,129 118,100 116,48 L116,13 C112.55,11.8 107.95,12.4 103.5,15.5 C99.5,30 96.5,46 92,55 C87,60 81,60.5 74,58.5 C66,56.5 60,57 56,58.2 Z M34,66 C34,61 78,61 78,66 C78,76 68,89 56,89 C44,89 34,76 34,66 Z" fill-rule="evenodd"></path>
+        <linearGradient id="am-beard-garibaldi-0-shade" gradientUnits="userSpaceOnUse" x1="0" y1="13" x2="0" y2="129"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.2"></stop></linearGradient></defs>
+        <mask id="am-beard-garibaldi-0-mask" fill="white"><use fill-rule="evenodd" xlink:href="#am-beard-garibaldi-0"></use></mask>
+        <use fill="#000000" fill-opacity="0.12" fill-rule="evenodd" transform="translate(0,1.4)" xlink:href="#am-beard-garibaldi-0"></use>
+        <g>
+        <use fill="#252E32" fill-rule="evenodd" xlink:href="#am-beard-garibaldi-0"></use>
+        <g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-beard-garibaldi-0-mask)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR"><rect x="-80" y="-80" width="400" height="400"></rect></g>
+        <g mask="url(#am-beard-garibaldi-0-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-garibaldi-0-shade)"></rect><g fill="none" stroke="#000000" stroke-opacity="0.12" stroke-width="1.2" stroke-linecap="round"><path d="M8,46 C8,72 16,96 30,110"></path><path d="M104,46 C104,72 96,96 82,110"></path><path d="M40,96 C38,106 40,114 44,120"></path><path d="M72,96 C74,106 72,114 68,120"></path><path d="M56,94 L56,121"></path><path d="M22,74 C22,88 26,98 32,106"></path><path d="M90,74 C90,88 86,98 80,106"></path></g></g>
+        </g>
+        <defs><path id="am-beard-garibaldi-1" d="M56,58 C51,55 42,55.3 34,59 C30.5,61.5 28.5,67 29,71 C35,68.8 44,65.5 50,65.9 C53,66.1 55,66.5 56,66.9 C57,66.5 59,66.1 62,65.9 C68,65.5 77,68.8 83,71 C83.5,67 81.5,61.5 78,59 C70,55.3 61,55 56,58 Z" fill-rule="evenodd"></path>
+        <linearGradient id="am-beard-garibaldi-1-shade" gradientUnits="userSpaceOnUse" x1="0" y1="55" x2="0" y2="71"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.2"></stop></linearGradient></defs>
+        <mask id="am-beard-garibaldi-1-mask" fill="white"><use fill-rule="evenodd" xlink:href="#am-beard-garibaldi-1"></use></mask>
+        <use fill="#000000" fill-opacity="0.12" fill-rule="evenodd" transform="translate(0,1.4)" xlink:href="#am-beard-garibaldi-1"></use>
+        <g>
+        <use fill="#252E32" fill-rule="evenodd" xlink:href="#am-beard-garibaldi-1"></use>
+        <g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-beard-garibaldi-1-mask)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR"><rect x="-80" y="-80" width="400" height="400"></rect></g>
+        <g mask="url(#am-beard-garibaldi-1-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-garibaldi-1-shade)"></rect><g fill="none" stroke="#000000" stroke-opacity="0.12" stroke-width="1.2" stroke-linecap="round"><path d="M56,59.5 L56,64.5"></path></g></g>
+        </g>
+        </g>
+        """),
+  BraidedBeard("""
+        <g id="FacialHair/BraidedBeard">
+        <defs><path id="am-beard-braided-beard-0" d="M56,58.2 C52,57 46,56.5 38,58.5 C31,60.5 25,60 20,55 C13,46 10,30 8.5,15.5 C4.8,12.4 1.2,11.8 -1.5,13 L-1.5,48 C-1.5,82 26,110 56,110 C86,110 113.5,82 113.5,48 L113.5,13 C110.8,11.8 107.2,12.4 103.5,15.5 C102,30 99,46 92,55 C87,60 81,60.5 74,58.5 C66,56.5 60,57 56,58.2 Z M34,66 C34,61 78,61 78,66 C78,76 68,89 56,89 C44,89 34,76 34,66 Z" fill-rule="evenodd"></path>
+        <linearGradient id="am-beard-braided-beard-0-shade" gradientUnits="userSpaceOnUse" x1="0" y1="13" x2="0" y2="111"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.2"></stop></linearGradient></defs>
+        <mask id="am-beard-braided-beard-0-mask" fill="white"><use fill-rule="evenodd" xlink:href="#am-beard-braided-beard-0"></use></mask>
+        <use fill="#000000" fill-opacity="0.12" fill-rule="evenodd" transform="translate(0,1.4)" xlink:href="#am-beard-braided-beard-0"></use>
+        <g>
+        <use fill="#252E32" fill-rule="evenodd" xlink:href="#am-beard-braided-beard-0"></use>
+        <g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-beard-braided-beard-0-mask)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR"><rect x="-80" y="-80" width="400" height="400"></rect></g>
+        <g mask="url(#am-beard-braided-beard-0-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-braided-beard-0-shade)"></rect><g fill="none" stroke="#000000" stroke-opacity="0.12" stroke-width="1.2" stroke-linecap="round"><path d="M8,40 C8,64 16,84 30,98"></path><path d="M104,40 C104,64 96,84 82,98"></path><path d="M44,94 C44,100 46,104 48,107"></path><path d="M68,94 C68,100 66,104 64,107"></path></g></g>
+        </g>
+        <defs><path id="am-beard-braided-beard-1" d="M56,105.5 C63.75,105.5 62.2,112.9 56,112.9 C49.8,112.9 48.25,105.5 56,105.5 Z M56,112 C63,112 61.6,119.4 56,119.4 C50.4,119.4 49,112 56,112 Z M56,118.2 C62.25,118.2 61,125.6 56,125.6 C51,125.6 49.75,118.2 56,118.2 Z M56,124 C61.5,124 60.4,131.4 56,131.4 C51.6,131.4 50.5,124 56,124 Z M52.8,130.6 L59.2,130.6 L58.6,133.4 L53.4,133.4 L52.8,130.6 Z M53.6,133 L58.4,133 C60.2,135.6 59.8,138.2 56,140 C52.2,138.2 51.8,135.6 53.6,133 Z" fill-rule="nonzero"></path>
+        <linearGradient id="am-beard-braided-beard-1-shade" gradientUnits="userSpaceOnUse" x1="0" y1="105" x2="0" y2="140"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.2"></stop></linearGradient></defs>
+        <mask id="am-beard-braided-beard-1-mask" fill="white"><use fill-rule="nonzero" xlink:href="#am-beard-braided-beard-1"></use></mask>
+        <use fill="#000000" fill-opacity="0.12" fill-rule="nonzero" transform="translate(0,1.4)" xlink:href="#am-beard-braided-beard-1"></use>
+        <g>
+        <use fill="#252E32" fill-rule="nonzero" xlink:href="#am-beard-braided-beard-1"></use>
+        <g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-beard-braided-beard-1-mask)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR"><rect x="-80" y="-80" width="400" height="400"></rect></g>
+        <g mask="url(#am-beard-braided-beard-1-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-braided-beard-1-shade)"></rect><g fill="none" stroke="#000000" stroke-opacity="0.12" stroke-width="1.2" stroke-linecap="round"><path d="M51,110 C53,109.6 55,110.6 56,112"></path><path d="M61,110 C59,109.6 57,110.6 56,112"></path><path d="M51.4,116.4 C53,116 55,117 56,118.2"></path><path d="M60.6,116.4 C59,116 57,117 56,118.2"></path><path d="M52,122.6 C53.4,122.2 55,123.2 56,124"></path><path d="M60,122.6 C58.6,122.2 57,123.2 56,124"></path><path d="M56,134.6 L56,138.4"></path></g></g>
+        </g>
+        <defs><path id="am-beard-braided-beard-2" d="M56,58 C51,55 42,55.3 37,59 C33.5,61.5 31.5,65.5 32,69.5 C38,67.3 44,65.5 50,65.9 C53,66.1 55,66.5 56,66.9 C57,66.5 59,66.1 62,65.9 C68,65.5 74,67.3 80,69.5 C80.5,65.5 78.5,61.5 75,59 C70,55.3 61,55 56,58 Z" fill-rule="evenodd"></path>
+        <linearGradient id="am-beard-braided-beard-2-shade" gradientUnits="userSpaceOnUse" x1="0" y1="55" x2="0" y2="69"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.2"></stop></linearGradient></defs>
+        <mask id="am-beard-braided-beard-2-mask" fill="white"><use fill-rule="evenodd" xlink:href="#am-beard-braided-beard-2"></use></mask>
+        <use fill="#000000" fill-opacity="0.12" fill-rule="evenodd" transform="translate(0,1.4)" xlink:href="#am-beard-braided-beard-2"></use>
+        <g>
+        <use fill="#252E32" fill-rule="evenodd" xlink:href="#am-beard-braided-beard-2"></use>
+        <g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-beard-braided-beard-2-mask)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR"><rect x="-80" y="-80" width="400" height="400"></rect></g>
+        <g mask="url(#am-beard-braided-beard-2-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-braided-beard-2-shade)"></rect><g fill="none" stroke="#000000" stroke-opacity="0.12" stroke-width="1.2" stroke-linecap="round"><path d="M56,59.5 L56,64.5"></path></g></g>
+        </g>
+        </g>
+        """),
+  CircleBeard("""
+        <g id="FacialHair/CircleBeard">
+        <defs><path id="am-beard-circle-beard-0" d="M56,56.8 C46,54 35,55.4 30.4,61 C26.6,66 26.4,78 29.6,88 C33.6,100 44,108 56,108 C68,108 78.4,100 82.4,88 C85.6,78 85.4,66 81.6,61 C77,55.4 66,54 56,56.8 Z M35.5,66.5 C35.5,61.5 76.5,61.5 76.5,66.5 C76.5,76 68,89 56,89 C44,89 35.5,76 35.5,66.5 Z" fill-rule="evenodd"></path>
+        <linearGradient id="am-beard-circle-beard-0-shade" gradientUnits="userSpaceOnUse" x1="0" y1="55" x2="0" y2="108"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.2"></stop></linearGradient></defs>
+        <mask id="am-beard-circle-beard-0-mask" fill="white"><use fill-rule="evenodd" xlink:href="#am-beard-circle-beard-0"></use></mask>
+        <use fill="#000000" fill-opacity="0.12" fill-rule="evenodd" transform="translate(0,1.4)" xlink:href="#am-beard-circle-beard-0"></use>
+        <g>
+        <use fill="#252E32" fill-rule="evenodd" xlink:href="#am-beard-circle-beard-0"></use>
+        <g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-beard-circle-beard-0-mask)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR"><rect x="-80" y="-80" width="400" height="400"></rect></g>
+        <g mask="url(#am-beard-circle-beard-0-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-circle-beard-0-shade)"></rect><g fill="none" stroke="#000000" stroke-opacity="0.12" stroke-width="1.2" stroke-linecap="round"><path d="M56,59.5 L56,64.5"></path><path d="M48,94 C49,99 51,102 53,104"></path><path d="M64,94 C63,99 61,102 59,104"></path><path d="M32,72 C32,80 34,86 37,90"></path><path d="M80,72 C80,80 78,86 75,90"></path></g></g>
+        </g>
+        </g>
+        """),
+  Dali("""
+        <g id="FacialHair/Dali">
+        <defs><path id="am-beard-dali-0" d="M56,59.6 C52,57.8 46,57.8 42,59.4 C39.5,60.4 37.6,59.6 36.6,57.2 C35.6,54.6 35,49 34.2,43.6 C34,50 34.4,56.6 36.4,60.2 C38,62.8 40.6,63.4 43.4,63.2 C48,63.2 52.6,62.8 56,63.6 C59.4,62.8 64,63.2 68.6,63.2 C71.4,63.4 74,62.8 75.6,60.2 C77.6,56.6 78,50 77.8,43.6 C77,49 76.4,54.6 75.4,57.2 C74.4,59.6 72.5,60.4 70,59.4 C66,57.8 60,57.8 56,59.6 Z" fill-rule="evenodd"></path>
+        <linearGradient id="am-beard-dali-0-shade" gradientUnits="userSpaceOnUse" x1="0" y1="43" x2="0" y2="64"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.2"></stop></linearGradient></defs>
+        <mask id="am-beard-dali-0-mask" fill="white"><use fill-rule="evenodd" xlink:href="#am-beard-dali-0"></use></mask>
+        <use fill="#000000" fill-opacity="0.1" fill-rule="evenodd" transform="translate(0,1.4)" xlink:href="#am-beard-dali-0"></use>
+        <g>
+        <use fill="#252E32" fill-rule="evenodd" xlink:href="#am-beard-dali-0"></use>
+        <g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-beard-dali-0-mask)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR"><rect x="-80" y="-80" width="400" height="400"></rect></g>
+        <g mask="url(#am-beard-dali-0-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-dali-0-shade)"></rect><g fill="none" stroke="#000000" stroke-opacity="0.12" stroke-width="1.2" stroke-linecap="round"><path d="M56,59.8 L56,62.6"></path></g></g>
+        </g>
+        </g>
+        """),
+  FriendlyMuttonChops("""
+        <g id="FacialHair/FriendlyMuttonChops">
+        <defs><path id="am-beard-friendly-mutton-chops-0" d="M56,58.6 C50,56.8 42,57 35,59 C24,62 13,52 11.5,40 C11,30 10,20 9.5,13.6 C6.5,12.6 2,12.6 -1.5,13.5 L-1.5,50 C0.5,66 6,80 14,88.6 C19,89 24,87.5 27,84.5 C31,80 31.6,72.6 33.2,68.6 C35.4,66 40,65.4 45,65.2 C49,65 53,65.2 56,65.8 C59,65.2 63,65 67,65.2 C72,65.4 76.6,66 78.8,68.6 C80.4,72.6 81,80 85,84.5 C88,87.5 93,89 98,88.6 C106,80 111.5,66 113.5,50 L113.5,13.5 C110,12.6 105.5,12.6 102.5,13.6 C102,20 101,30 100.5,40 C99,52 88,62 77,59 C70,57 62,56.8 56,58.6 Z" fill-rule="evenodd"></path>
+        <linearGradient id="am-beard-friendly-mutton-chops-0-shade" gradientUnits="userSpaceOnUse" x1="0" y1="12" x2="0" y2="90"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.2"></stop></linearGradient></defs>
+        <mask id="am-beard-friendly-mutton-chops-0-mask" fill="white"><use fill-rule="evenodd" xlink:href="#am-beard-friendly-mutton-chops-0"></use></mask>
+        <use fill="#000000" fill-opacity="0.12" fill-rule="evenodd" transform="translate(0,1.4)" xlink:href="#am-beard-friendly-mutton-chops-0"></use>
+        <g>
+        <use fill="#252E32" fill-rule="evenodd" xlink:href="#am-beard-friendly-mutton-chops-0"></use>
+        <g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-beard-friendly-mutton-chops-0-mask)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR"><rect x="-80" y="-80" width="400" height="400"></rect></g>
+        <g mask="url(#am-beard-friendly-mutton-chops-0-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-friendly-mutton-chops-0-shade)"></rect><g fill="none" stroke="#000000" stroke-opacity="0.12" stroke-width="1.2" stroke-linecap="round"><path d="M56,59.5 L56,64.5"></path><path d="M4,24 C4,40 6,56 12,70"></path><path d="M108,24 C108,40 106,56 100,70"></path><path d="M16,64 C18,72 21,78 24,82"></path><path d="M96,64 C94,72 91,78 88,82"></path></g></g>
+        </g>
+        </g>
+        """),
+  BoxedBeard("""
+        <g id="FacialHair/BoxedBeard">
+        <defs><path id="am-beard-boxed-beard-0" d="M56,58.2 C52,57 46,56.5 38,58.5 C31,60.5 25,60 20,55 C12.5,46 9.5,30 8,15.5 C4.45,12.4 1.05,11.8 -1.5,13 L-1.5,48 C-1.5,78 6,98 22,106.5 C32,111.4 44,112.4 56,112.4 C68,112.4 80,111.4 90,106.5 C106,98 113.5,78 113.5,48 L113.5,13 C110.95,11.8 107.55,12.4 104,15.5 C102.5,30 99.5,46 92,55 C87,60 81,60.5 74,58.5 C66,56.5 60,57 56,58.2 Z M34,66 C34,61 78,61 78,66 C78,76 68,89 56,89 C44,89 34,76 34,66 Z" fill-rule="evenodd"></path>
+        <linearGradient id="am-beard-boxed-beard-0-shade" gradientUnits="userSpaceOnUse" x1="0" y1="13" x2="0" y2="113"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.2"></stop></linearGradient></defs>
+        <mask id="am-beard-boxed-beard-0-mask" fill="white"><use fill-rule="evenodd" xlink:href="#am-beard-boxed-beard-0"></use></mask>
+        <use fill="#000000" fill-opacity="0.12" fill-rule="evenodd" transform="translate(0,1.4)" xlink:href="#am-beard-boxed-beard-0"></use>
+        <g>
+        <use fill="#252E32" fill-rule="evenodd" xlink:href="#am-beard-boxed-beard-0"></use>
+        <g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-beard-boxed-beard-0-mask)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR"><rect x="-80" y="-80" width="400" height="400"></rect></g>
+        <g mask="url(#am-beard-boxed-beard-0-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-boxed-beard-0-shade)"></rect><g fill="none" stroke="#000000" stroke-opacity="0.12" stroke-width="1.2" stroke-linecap="round"><path d="M8,40 C8,62 12,80 22,94"></path><path d="M104,40 C104,62 100,80 90,94"></path><path d="M44,96 L45,108"></path><path d="M68,96 L67,108"></path><path d="M30,94 L33,104"></path><path d="M82,94 L79,104"></path></g></g>
+        </g>
+        <defs><path id="am-beard-boxed-beard-1" d="M56,58 C51,55 42,55.3 37,59 C33.5,61.5 31.5,65.5 32,69.5 C38,67.3 44,65.5 50,65.9 C53,66.1 55,66.5 56,66.9 C57,66.5 59,66.1 62,65.9 C68,65.5 74,67.3 80,69.5 C80.5,65.5 78.5,61.5 75,59 C70,55.3 61,55 56,58 Z" fill-rule="evenodd"></path>
+        <linearGradient id="am-beard-boxed-beard-1-shade" gradientUnits="userSpaceOnUse" x1="0" y1="55" x2="0" y2="69"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.2"></stop></linearGradient></defs>
+        <mask id="am-beard-boxed-beard-1-mask" fill="white"><use fill-rule="evenodd" xlink:href="#am-beard-boxed-beard-1"></use></mask>
+        <use fill="#000000" fill-opacity="0.12" fill-rule="evenodd" transform="translate(0,1.4)" xlink:href="#am-beard-boxed-beard-1"></use>
+        <g>
+        <use fill="#252E32" fill-rule="evenodd" xlink:href="#am-beard-boxed-beard-1"></use>
+        <g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-beard-boxed-beard-1-mask)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR"><rect x="-80" y="-80" width="400" height="400"></rect></g>
+        <g mask="url(#am-beard-boxed-beard-1-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-boxed-beard-1-shade)"></rect><g fill="none" stroke="#000000" stroke-opacity="0.12" stroke-width="1.2" stroke-linecap="round"><path d="M56,59.5 L56,64.5"></path></g></g>
+        </g>
+        </g>
         """);
 
   final String svg;
