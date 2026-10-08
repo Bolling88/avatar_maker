@@ -55,29 +55,29 @@ enum SkinColors implements PropertyItem {
   Olive("""<g id="SkinColor/Olive" mask="url(#mask-6)" fill="#C68642"><rect x="0" y="0" width="264" height="280"/></g>"""),
   Sienna("""<g id="SkinColor/Sienna" mask="url(#mask-6)" fill="#8D5524"><rect x="0" y="0" width="264" height="280"/></g>"""),
   Espresso("""<g id="SkinColor/Espresso" mask="url(#mask-6)" fill="#422B21"><rect x="0" y="0" width="264" height="280"/></g>"""),
-  Stone("""<g id="SkinColor/Stone" mask="url(#mask-6)" fill="#B9B3AC"><rect x="0" y="0" width="264" height="280"/></g>"""),
+  Stone("""<g id="SkinColor/Stone" mask="url(#mask-6)" fill="#C2C5C8"><rect x="0" y="0" width="264" height="280"/></g>"""),
   Mint("""<g id="SkinColor/Mint" mask="url(#mask-6)" fill="#9FD8B8"><rect x="0" y="0" width="264" height="280"/></g>"""),
   Lilac("""<g id="SkinColor/Lilac" mask="url(#mask-6)" fill="#D3B8E8"><rect x="0" y="0" width="264" height="280"/></g>"""),
   Rose("""<g id="SkinColor/Rose" mask="url(#mask-6)" fill="#F0A8B8"><rect x="0" y="0" width="264" height="280"/></g>"""),
   Azure("""<g id="SkinColor/Azure" mask="url(#mask-6)" fill="#A9CBE8"><rect x="0" y="0" width="264" height="280"/></g>"""),
   Fern("""<g id="SkinColor/Fern" mask="url(#mask-6)" fill="#7FBF8A"><rect x="0" y="0" width="264" height="280"/></g>"""),
   Ivory("""
-  <g id="SkinColor/Ivory" mask="url(#mask-6)" fill="#FFF0DE">
+  <g id="SkinColor/Ivory" mask="url(#mask-6)" fill="#F7EBCF">
     <rect x="0" y="0" width="264" height="280" />
   </g>
   """),
   Bisque("""
-  <g id="SkinColor/Bisque" mask="url(#mask-6)" fill="#F5D6B8">
+  <g id="SkinColor/Bisque" mask="url(#mask-6)" fill="#F2CDB8">
     <rect x="0" y="0" width="264" height="280" />
   </g>
   """),
   Honey("""
-  <g id="SkinColor/Honey" mask="url(#mask-6)" fill="#DEA96A">
+  <g id="SkinColor/Honey" mask="url(#mask-6)" fill="#EEC689">
     <rect x="0" y="0" width="264" height="280" />
   </g>
   """),
   Amber("""
-  <g id="SkinColor/Amber" mask="url(#mask-6)" fill="#C98A4B">
+  <g id="SkinColor/Amber" mask="url(#mask-6)" fill="#A86D3A">
     <rect x="0" y="0" width="264" height="280" />
   </g>
   """),
@@ -108,6 +108,71 @@ enum SkinColors implements PropertyItem {
   """),
   Violet("""
   <g id="SkinColor/Violet" mask="url(#mask-6)" fill="#B79BE0">
+    <rect x="0" y="0" width="264" height="280" />
+  </g>
+  """),
+  Fawn("""
+  <g id="SkinColor/Fawn" mask="url(#mask-6)" fill="#CDAD86">
+    <rect x="0" y="0" width="264" height="280" />
+  </g>
+  """),
+  Beige("""
+  <g id="SkinColor/Beige" mask="url(#mask-6)" fill="#D9B49A">
+    <rect x="0" y="0" width="264" height="280" />
+  </g>
+  """),
+  Apricot("""
+  <g id="SkinColor/Apricot" mask="url(#mask-6)" fill="#E5A98A">
+    <rect x="0" y="0" width="264" height="280" />
+  </g>
+  """),
+  Clay("""
+  <g id="SkinColor/Clay" mask="url(#mask-6)" fill="#B9806A">
+    <rect x="0" y="0" width="264" height="280" />
+  </g>
+  """),
+  Khaki("""
+  <g id="SkinColor/Khaki" mask="url(#mask-6)" fill="#A68663">
+    <rect x="0" y="0" width="264" height="280" />
+  </g>
+  """),
+  Pecan("""
+  <g id="SkinColor/Pecan" mask="url(#mask-6)" fill="#8C6A50">
+    <rect x="0" y="0" width="264" height="280" />
+  </g>
+  """),
+  Rosewood("""
+  <g id="SkinColor/Rosewood" mask="url(#mask-6)" fill="#8A5646">
+    <rect x="0" y="0" width="264" height="280" />
+  </g>
+  """),
+  Bronze("""
+  <g id="SkinColor/Bronze" mask="url(#mask-6)" fill="#6B5236">
+    <rect x="0" y="0" width="264" height="280" />
+  </g>
+  """),
+  Mocha("""
+  <g id="SkinColor/Mocha" mask="url(#mask-6)" fill="#5A3533">
+    <rect x="0" y="0" width="264" height="280" />
+  </g>
+  """),
+  Ebony("""
+  <g id="SkinColor/Ebony" mask="url(#mask-6)" fill="#3E2627">
+    <rect x="0" y="0" width="264" height="280" />
+  </g>
+  """),
+  Midnight("""
+  <g id="SkinColor/Midnight" mask="url(#mask-6)" fill="#3C5A80">
+    <rect x="0" y="0" width="264" height="280" />
+  </g>
+  """),
+  Jade("""
+  <g id="SkinColor/Jade" mask="url(#mask-6)" fill="#2F7A64">
+    <rect x="0" y="0" width="264" height="280" />
+  </g>
+  """),
+  Plum("""
+  <g id="SkinColor/Plum" mask="url(#mask-6)" fill="#6E4E96">
     <rect x="0" y="0" width="264" height="280" />
   </g>
   """);

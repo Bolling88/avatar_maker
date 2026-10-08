@@ -28,7 +28,7 @@ enum OutfitColors implements PropertyItem {
   Burgundy("#7B2C3B"),
   Mustard("#D8A31A"),
   Cream("#F5EEDC"),
-  Charcoal("#37474F"),
+  Charcoal("#3D3C3B"),
   Coral("#FF7F6B"),
   Sand("#D9C7A3"),
   Olive("#6B7A3C"),
@@ -39,7 +39,21 @@ enum OutfitColors implements PropertyItem {
   Chocolate("#4E342E"),
   Sunflower("#F2C230"),
   Ice("#D6ECF5"),
-  Crimson("#B3172B");
+  Crimson("#B3172B"),
+  Navy("#1F2A44"),
+  Emerald("#2E9E5B"),
+  Cobalt("#2B4FC7"),
+  Turquoise("#26B5C6"),
+  Apricot("#FFB38A"),
+  DustyRose("#D49AA0"),
+  Mauve("#9C6B8E"),
+  Indigo("#3F3D99"),
+  Camel("#C19A6B"),
+  Taupe("#8F8478"),
+  Tangerine("#FF9F2E"),
+  Lime("#8BC34A"),
+  Khaki("#B5A673"),
+  Lilac("#D8C3F0");
 
   final String hexCode;
 
