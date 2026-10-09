@@ -494,22 +494,19 @@ enum FacialHairTypes implements PropertyItem {
         """),
   GreenTuftGoatee("""
         <g id="FacialHair/GreenTuftGoatee">
-        <defs><path id="am-beard-green-tuft-0" d="M56,88.5 C51,88 46,89.5 44.5,93 C44.5,101 47.5,108 51,114 C52.5,117 53.5,119.5 53.6,121.5 L58.4,121.5 C58.5,119.5 59.5,117 61,114 C64.5,108 67.5,101 67.5,93 C66,89.5 61,88 56,88.5 Z" fill-rule="evenodd"></path>
-        <linearGradient id="am-beard-green-tuft-0-shade" gradientUnits="userSpaceOnUse" x1="0" y1="88" x2="0" y2="122"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.16"></stop><stop offset="0.55" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.1"></stop></linearGradient>
-        <path id="am-beard-green-tuft-1" d="M56,120.5 C53,121.5 50.5,124.5 50,128.5 C49.5,131.5 50.5,134.5 52,136.5 C53,134.5 54,134 54.6,136 C55.4,134.6 56.6,134.6 57.4,136 C58,134 59,134.5 60,136.5 C61.5,134.5 62.5,131.5 62,128.5 C61.5,124.5 59,121.5 56,120.5 Z" fill-rule="evenodd"></path>
-        <linearGradient id="am-beard-green-tuft-1-shade" gradientUnits="userSpaceOnUse" x1="0" y1="120" x2="0" y2="137"><stop offset="0" stop-color="#E4F57E"></stop><stop offset="0.4" stop-color="#B4D62C"></stop><stop offset="1" stop-color="#86A814"></stop></linearGradient></defs>
+        <defs><path id="am-beard-green-tuft-0" d="M56,88.5 C51,88 46,89.5 44.5,93 C44.5,100 47,106 50.5,110.5 C52,112.5 53.2,114 53.6,115.5 C51,118 49.5,122 49.5,126 C49.5,129.5 50.8,132.5 52.5,134.5 C53.3,132.8 54.2,132.6 54.8,134.6 C55.4,133.2 56.6,133.2 57.2,134.6 C57.8,132.6 58.7,132.8 59.5,134.5 C61.2,132.5 62.5,129.5 62.5,126 C62.5,122 61,118 58.4,115.5 C58.8,114 60,112.5 61.5,110.5 C65,106 67.5,100 67.5,93 C66,89.5 61,88 56,88.5 Z" fill-rule="evenodd"></path>
+        <linearGradient id="am-beard-green-tuft-0-shade" gradientUnits="userSpaceOnUse" x1="0" y1="88" x2="0" y2="135"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.16"></stop><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="1" stop-color="#000000" stop-opacity="0.12"></stop></linearGradient>
+        <linearGradient id="am-beard-green-tuft-band" gradientUnits="userSpaceOnUse" x1="0" y1="111.6" x2="0" y2="116.8"><stop offset="0" stop-color="#E4F57E"></stop><stop offset="0.45" stop-color="#B4D62C"></stop><stop offset="1" stop-color="#86A814"></stop></linearGradient></defs>
         <mask id="am-beard-green-tuft-0-mask" fill="white"><use fill-rule="evenodd" xlink:href="#am-beard-green-tuft-0"></use></mask>
-        <mask id="am-beard-green-tuft-1-mask" fill="white"><use fill-rule="evenodd" xlink:href="#am-beard-green-tuft-1"></use></mask>
         <use fill="#000000" fill-opacity="0.12" fill-rule="evenodd" transform="translate(0,1.4)" xlink:href="#am-beard-green-tuft-0"></use>
-        <use fill="#000000" fill-opacity="0.14" fill-rule="evenodd" transform="translate(0,1.4)" xlink:href="#am-beard-green-tuft-1"></use>
-        <use fill="url(#am-beard-green-tuft-1-shade)" fill-rule="evenodd" xlink:href="#am-beard-green-tuft-1"></use>
-        <g mask="url(#am-beard-green-tuft-1-mask)"><g fill="none" stroke="#86A814" stroke-opacity="0.8" stroke-width="1" stroke-linecap="round"><path d="M53.5,124 C52.5,128 52.5,131.5 53.5,135"></path><path d="M56,123.5 L56,134.5"></path><path d="M58.5,124 C59.5,128 59.5,131.5 58.5,135"></path></g><ellipse cx="53.6" cy="125.6" rx="1.6" ry="3" transform="rotate(18 53.6 125.6)" fill="#FFFFFF" fill-opacity="0.45"></ellipse></g>
         <g>
         <use fill="#252E32" fill-rule="evenodd" xlink:href="#am-beard-green-tuft-0"></use>
         <g id="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR_NAME" mask="url(#am-beard-green-tuft-0-mask)" fill="$TO_REPLACE_WITH_FACIAL_HAIRS_COLOR"><rect x="-80" y="-80" width="400" height="400"></rect></g>
-        <g mask="url(#am-beard-green-tuft-0-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-green-tuft-0-shade)"></rect><g fill="none" stroke="#000000" stroke-opacity="0.12" stroke-width="1.2" stroke-linecap="round"><path d="M56,92 L56,120"></path><path d="M50.5,93 C50.5,101 52,108 54.5,117"></path><path d="M61.5,93 C61.5,101 60,108 57.5,117"></path></g></g>
+        <g mask="url(#am-beard-green-tuft-0-mask)"><rect x="-80" y="-80" width="400" height="400" fill="url(#am-beard-green-tuft-0-shade)"></rect><g fill="none" stroke="#000000" stroke-opacity="0.13" stroke-width="1.2" stroke-linecap="round"><path d="M56,92 L56,112"></path><path d="M50.5,93 C50.5,100 52,106 54.5,111"></path><path d="M61.5,93 C61.5,100 60,106 57.5,111"></path><path d="M53.2,119 C52,123.5 52,128.5 53.4,133"></path><path d="M56,118.5 L56,133"></path><path d="M58.8,119 C60,123.5 60,128.5 58.6,133"></path></g></g>
         </g>
-        <rect x="52.6" y="119.6" width="6.8" height="2.8" rx="1.4" fill="#000000" fill-opacity="0.45"></rect>
+        <rect x="51.2" y="111.6" width="9.6" height="5.2" rx="2.6" fill="#000000" fill-opacity="0.18" transform="translate(0,0.8)"></rect>
+        <rect x="51.2" y="111.6" width="9.6" height="5.2" rx="2.6" fill="url(#am-beard-green-tuft-band)"></rect>
+        <rect x="52.6" y="112.3" width="4.6" height="1.3" rx="0.65" fill="#FFFFFF" fill-opacity="0.55"></rect>
         </g>
         """);
 
