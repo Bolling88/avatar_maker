@@ -18,6 +18,8 @@ class CustomizerBody extends StatelessWidget {
   final bool Function(PropertyCategoryIds categoryId, String itemId)?
       isItemLocked;
   final Widget? lockWidget;
+  final Widget Function(PropertyCategoryIds categoryId, String itemId)?
+      lockWidgetBuilder;
   final void Function(PropertyCategoryIds categoryId, String itemId)?
       onTapLockedItem;
 
@@ -30,6 +32,7 @@ class CustomizerBody extends StatelessWidget {
     required this.onArrowTap,
     this.isItemLocked,
     this.lockWidget,
+    this.lockWidgetBuilder,
     this.onTapLockedItem,
   });
 
@@ -109,20 +112,21 @@ class CustomizerBody extends StatelessWidget {
                         ),
                 ),
                 if (isLocked)
-                  lockWidget ??
-                      Container(
-                        decoration: BoxDecoration(
-                          color: Colors.black.withValues(alpha: 0.3),
-                          borderRadius: BorderRadius.circular(10),
-                        ),
-                        child: Center(
-                          child: Icon(
-                            Icons.lock,
-                            color: Colors.white,
-                            size: 60,
+                  lockWidgetBuilder?.call(propertyCategory.id, item.id) ??
+                      lockWidget ??
+                          Container(
+                            decoration: BoxDecoration(
+                              color: Colors.black.withValues(alpha: 0.3),
+                              borderRadius: BorderRadius.circular(10),
+                            ),
+                            child: Center(
+                              child: Icon(
+                                Icons.lock,
+                                color: Colors.white,
+                                size: 60,
+                              ),
+                            ),
                           ),
-                        ),
-                      ),
               ],
             ),
           );

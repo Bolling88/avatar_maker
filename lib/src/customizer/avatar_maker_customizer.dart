@@ -50,6 +50,12 @@ class AvatarMakerCustomizer extends StatefulWidget {
   /// If not provided, a default lock icon will be shown.
   final Widget? lockWidget;
 
+  /// Builds the overlay for one locked item, for an app whose lock says
+  /// something different per item (what unlocks it, at which level).
+  /// Takes precedence over [lockWidget].
+  final Widget Function(PropertyCategoryIds categoryId, String itemId)?
+      lockWidgetBuilder;
+
   /// Callback to be called when a locked item is tapped.
   /// This can be used to show a dialog to unlock the item, etc.
   final void Function(PropertyCategoryIds categoryId, String itemId)?
@@ -91,6 +97,7 @@ class AvatarMakerCustomizer extends StatefulWidget {
     this.onChange,
     this.isItemLocked,
     this.lockWidget,
+    this.lockWidgetBuilder,
     this.onTapLockedItem,
     this.onItemSelected,
     this.controller,
@@ -228,6 +235,7 @@ class _AvatarMakerCustomizerState extends State<AvatarMakerCustomizer>
           onArrowTap: onArrowTap,
           isItemLocked: widget.isItemLocked,
           lockWidget: widget.lockWidget,
+          lockWidgetBuilder: widget.lockWidgetBuilder,
           onTapLockedItem: widget.onTapLockedItem,
         ),
       ),
