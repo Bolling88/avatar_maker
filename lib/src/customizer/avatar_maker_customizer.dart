@@ -75,6 +75,15 @@ class AvatarMakerCustomizer extends StatefulWidget {
   /// If not provided, it will be fetched from Provider or a new controller will be created.
   final AvatarMakerController? controller;
 
+  /// The category whose tab is showing when the customizer opens — for an
+  /// app that sends the user straight to one item ("try this hat on").
+  /// Null, or a category that is not displayed, opens on the first tab.
+  final PropertyCategoryIds? initialCategoryId;
+
+  /// Opens each category's grid scrolled so that its selected tile is in
+  /// view, instead of at the top. Off by default.
+  final bool scrollToSelectedItem;
+
   /// Creates a widget UI to customize the AvatarMaker
   ///
   /// You may provide a [AvatarMakerThemeData] instance to adjust the appearance of this
@@ -101,6 +110,8 @@ class AvatarMakerCustomizer extends StatefulWidget {
     this.onTapLockedItem,
     this.onItemSelected,
     this.controller,
+    this.initialCategoryId,
+    this.scrollToSelectedItem = false,
   })  : this.theme = theme ?? AvatarMakerThemeData.defaultTheme,
         super(key: key);
 
@@ -137,8 +148,11 @@ class _AvatarMakerCustomizerState extends State<AvatarMakerCustomizer>
     nbrDisplayedCategories =
         avatarMakerController.displayedPropertyCategories.length;
 
+    final initialIndex = avatarMakerController.displayedPropertyCategories
+        .indexWhere((category) => category.id == widget.initialCategoryId);
     tabController = TabController(
       length: nbrDisplayedCategories,
+      initialIndex: initialIndex < 0 ? 0 : initialIndex,
       vsync: this,
     );
 
@@ -237,6 +251,7 @@ class _AvatarMakerCustomizerState extends State<AvatarMakerCustomizer>
           lockWidget: widget.lockWidget,
           lockWidgetBuilder: widget.lockWidgetBuilder,
           onTapLockedItem: widget.onTapLockedItem,
+          scrollToSelectedItem: widget.scrollToSelectedItem,
         ),
       ),
     );

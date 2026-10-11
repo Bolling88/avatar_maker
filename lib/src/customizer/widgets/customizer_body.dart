@@ -2,6 +2,7 @@ import "package:avatar_maker/avatar_maker.dart";
 import "package:avatar_maker/src/core/services/item_localization_service.dart";
 import "package:avatar_maker/src/customizer/widgets/customizer_appbar.dart";
 import "package:avatar_maker/src/customizer/widgets/customizer_bottom_navbar.dart";
+import "package:avatar_maker/src/customizer/widgets/selected_item_grid.dart";
 import "package:flutter/material.dart";
 import "package:flutter_svg/flutter_svg.dart";
 
@@ -23,6 +24,9 @@ class CustomizerBody extends StatelessWidget {
   final void Function(PropertyCategoryIds categoryId, String itemId)?
       onTapLockedItem;
 
+  /// Whether each category's grid opens scrolled to its selected tile.
+  final bool scrollToSelectedItem;
+
   const CustomizerBody({
     required this.avatarMakerController,
     required this.tabController,
@@ -34,6 +38,7 @@ class CustomizerBody extends StatelessWidget {
     this.lockWidget,
     this.lockWidgetBuilder,
     this.onTapLockedItem,
+    this.scrollToSelectedItem = false,
   });
 
   @override
@@ -55,15 +60,25 @@ class CustomizerBody extends StatelessWidget {
               avatarMakerController.selectedOptions[propertyCategory.id] ??
               propertyCategory.properties!.first;
 
+      // Cosmetic items are matched by id (see below); the rest by equality.
+      var selectedIndex = propertyCategory.properties!.indexOf(selectedItem);
+      if (selectedIndex < 0) {
+        selectedIndex = propertyCategory.properties!
+            .indexWhere((item) => item.id == selectedItem.id);
+      }
+
       /// Build the main Tile Grid with all the options from the attribute
-      var _tileGrid = GridView.builder(
+      var _tileGrid = SelectedItemGrid(
+        // One per category, so a tab's scroll position is never handed to
+        // another tab's grid.
+        key: ValueKey(propertyCategory.id),
         physics: theme.scrollPhysics,
         itemCount: attributeListLength,
-        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: theme.gridCrossAxisCount,
-          crossAxisSpacing: 4.0,
-          mainAxisSpacing: 4.0,
-        ),
+        selectedIndex: selectedIndex,
+        scrollToSelected: scrollToSelectedItem,
+        crossAxisCount: theme.gridCrossAxisCount,
+        crossAxisSpacing: 4.0,
+        mainAxisSpacing: 4.0,
         itemBuilder: (BuildContext context, int index) {
           final item = propertyCategory.properties![index];
           final isLocked =
