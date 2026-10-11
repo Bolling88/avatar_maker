@@ -46,6 +46,12 @@ class AvatarMakerCustomizer extends StatefulWidget {
   final bool Function(PropertyCategoryIds categoryId, String itemId)?
       isItemLocked;
 
+  /// Callback to leave an item out of the picker entirely — it gets no
+  /// tile, though an avatar already wearing it still draws it. For items a
+  /// player should not even know about yet.
+  final bool Function(PropertyCategoryIds categoryId, String itemId)?
+      isItemHidden;
+
   /// Widget to display when an item is locked.
   /// If not provided, a default lock icon will be shown.
   final Widget? lockWidget;
@@ -105,6 +111,7 @@ class AvatarMakerCustomizer extends StatefulWidget {
     this.autosave = false,
     this.onChange,
     this.isItemLocked,
+    this.isItemHidden,
     this.lockWidget,
     this.lockWidgetBuilder,
     this.onTapLockedItem,
@@ -248,6 +255,7 @@ class _AvatarMakerCustomizerState extends State<AvatarMakerCustomizer>
           onTapOption: onTapOption,
           onArrowTap: onArrowTap,
           isItemLocked: widget.isItemLocked,
+          isItemHidden: widget.isItemHidden,
           lockWidget: widget.lockWidget,
           lockWidgetBuilder: widget.lockWidgetBuilder,
           onTapLockedItem: widget.onTapLockedItem,

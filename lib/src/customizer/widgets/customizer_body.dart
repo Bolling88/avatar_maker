@@ -18,6 +18,10 @@ class CustomizerBody extends StatelessWidget {
   final void Function(bool isLeft) onArrowTap;
   final bool Function(PropertyCategoryIds categoryId, String itemId)?
       isItemLocked;
+
+  /// Items left out of the grid entirely (still drawable on an avatar).
+  final bool Function(PropertyCategoryIds categoryId, String itemId)?
+      isItemHidden;
   final Widget? lockWidget;
   final Widget Function(PropertyCategoryIds categoryId, String itemId)?
       lockWidgetBuilder;
@@ -35,6 +39,7 @@ class CustomizerBody extends StatelessWidget {
     required this.onTapOption,
     required this.onArrowTap,
     this.isItemLocked,
+    this.isItemHidden,
     this.lockWidget,
     this.lockWidgetBuilder,
     this.onTapLockedItem,
@@ -51,9 +56,18 @@ class CustomizerBody extends StatelessWidget {
     /// Create the tab icon and content for each category.
     for (final (categoryIndex, propertyCategory)
         in avatarMakerController.displayedPropertyCategories.indexed) {
+      /// The options shown, as indices into the category's full list: an
+      /// item [isItemHidden] leaves out keeps its place in the list (it is
+      /// still drawn on an avatar wearing it) but gets no tile.
+      final shown = <int>[
+        for (final (index, item) in propertyCategory.properties!.indexed)
+          if (!(isItemHidden?.call(propertyCategory.id, item.id) ?? false))
+            index,
+      ];
+
       /// Number of options available for said [attribute]
       /// Eg: "Hairstyle" attribute has 38 options
-      var attributeListLength = propertyCategory.properties!.length;
+      var attributeListLength = shown.length;
 
       PropertyItem selectedItem =
           avatarMakerController.previewOptions[propertyCategory.id] ??
@@ -66,6 +80,7 @@ class CustomizerBody extends StatelessWidget {
         selectedIndex = propertyCategory.properties!
             .indexWhere((item) => item.id == selectedItem.id);
       }
+      final shownSelectedIndex = shown.indexOf(selectedIndex);
 
       /// Build the main Tile Grid with all the options from the attribute
       var _tileGrid = SelectedItemGrid(
@@ -74,12 +89,13 @@ class CustomizerBody extends StatelessWidget {
         key: ValueKey(propertyCategory.id),
         physics: theme.scrollPhysics,
         itemCount: attributeListLength,
-        selectedIndex: selectedIndex,
+        selectedIndex: shownSelectedIndex,
         scrollToSelected: scrollToSelectedItem,
         crossAxisCount: theme.gridCrossAxisCount,
         crossAxisSpacing: 4.0,
         mainAxisSpacing: 4.0,
-        itemBuilder: (BuildContext context, int index) {
+        itemBuilder: (BuildContext context, int shownIndex) {
+          final index = shown[shownIndex];
           final item = propertyCategory.properties![index];
           final isLocked =
               isItemLocked?.call(propertyCategory.id, item.id) ?? false;

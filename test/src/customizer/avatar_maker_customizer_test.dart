@@ -1,5 +1,6 @@
 import 'package:avatar_maker/avatar_maker.dart';
 import 'package:flutter/material.dart';
+import 'package:avatar_maker/src/customizer/widgets/selected_item_grid.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
@@ -413,5 +414,47 @@ void main() {
         expect(callCount, equals(2));
       },
     );
+  });
+
+  group('Hidden Items Feature', () {
+    Future<int> firstGridCount(
+      WidgetTester tester,
+      bool Function(PropertyCategoryIds, String)? isHidden,
+    ) async {
+      await tester.pumpWidget(
+        MaterialApp(
+          home: Scaffold(
+            body: AvatarMakerCustomizer(
+              controller: NonPersistentAvatarMakerController(),
+              isItemHidden: isHidden,
+              scaffoldHeight: 600,
+            ),
+          ),
+        ),
+      );
+      await tester.pumpAndSettle();
+      return tester
+          .widget<SelectedItemGrid>(find.byType(SelectedItemGrid).first)
+          .itemCount;
+    }
+
+    testWidgets('a hidden item gets no tile', (WidgetTester tester) async {
+      final all = await firstGridCount(tester, null);
+      var hidden = 0;
+      final fewer = await firstGridCount(tester, (category, itemId) {
+        final hide = itemId.hashCode.isEven;
+        if (hide) hidden++;
+        return hide;
+      });
+      expect(all, greaterThan(1));
+      expect(fewer, lessThan(all));
+      expect(hidden, greaterThan(0));
+    });
+
+    testWidgets('hiding nothing shows everything', (WidgetTester tester) async {
+      final all = await firstGridCount(tester, null);
+      final same = await firstGridCount(tester, (category, itemId) => false);
+      expect(same, all);
+    });
   });
 }
