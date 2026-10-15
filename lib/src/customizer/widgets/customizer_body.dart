@@ -22,6 +22,11 @@ class CustomizerBody extends StatelessWidget {
   /// Items left out of the grid entirely (still drawable on an avatar).
   final bool Function(PropertyCategoryIds categoryId, String itemId)?
       isItemHidden;
+
+  /// Draws a tile's preview; null draws the vector (see
+  /// [AvatarMakerCustomizer.thumbnailBuilder]).
+  final Widget Function(BuildContext context, String svg, double size)?
+      thumbnailBuilder;
   final Widget? lockWidget;
   final Widget Function(PropertyCategoryIds categoryId, String itemId)?
       lockWidgetBuilder;
@@ -40,6 +45,7 @@ class CustomizerBody extends StatelessWidget {
     required this.onArrowTap,
     this.isItemLocked,
     this.isItemHidden,
+    this.thumbnailBuilder,
     this.lockWidget,
     this.lockWidgetBuilder,
     this.onTapLockedItem,
@@ -127,7 +133,19 @@ class CustomizerBody extends StatelessWidget {
                   padding: theme.tilePadding,
                   child: isCosmetic
                       ? item.buildThumbnail(context, 80)
-                      : SvgPicture.string(
+                      : thumbnailBuilder != null
+                          ? Semantics(
+                              image: true,
+                              label: item
+                                  .localizedLabel(avatarMakerController.l10n),
+                              child: thumbnailBuilder!(
+                                context,
+                                avatarMakerController.getComponentSVG(
+                                    propertyCategory.id, index),
+                                80,
+                              ),
+                            )
+                          : SvgPicture.string(
                           avatarMakerController.getComponentSVG(
                               propertyCategory.id, index),
                           height: 80,

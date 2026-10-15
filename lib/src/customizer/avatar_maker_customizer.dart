@@ -52,6 +52,13 @@ class AvatarMakerCustomizer extends StatefulWidget {
   final bool Function(PropertyCategoryIds categoryId, String itemId)?
       isItemHidden;
 
+  /// Draws one picker tile's preview — [svg] at [size] — in place of a plain
+  /// `SvgPicture.string`. Every tile is its own vector document, replayed on
+  /// every frame the grid scrolls; a host can pass a builder that draws it
+  /// from a cached raster instead.
+  final Widget Function(BuildContext context, String svg, double size)?
+      thumbnailBuilder;
+
   /// Widget to display when an item is locked.
   /// If not provided, a default lock icon will be shown.
   final Widget? lockWidget;
@@ -112,6 +119,7 @@ class AvatarMakerCustomizer extends StatefulWidget {
     this.onChange,
     this.isItemLocked,
     this.isItemHidden,
+    this.thumbnailBuilder,
     this.lockWidget,
     this.lockWidgetBuilder,
     this.onTapLockedItem,
@@ -256,6 +264,7 @@ class _AvatarMakerCustomizerState extends State<AvatarMakerCustomizer>
           onArrowTap: onArrowTap,
           isItemLocked: widget.isItemLocked,
           isItemHidden: widget.isItemHidden,
+          thumbnailBuilder: widget.thumbnailBuilder,
           lockWidget: widget.lockWidget,
           lockWidgetBuilder: widget.lockWidgetBuilder,
           onTapLockedItem: widget.onTapLockedItem,
